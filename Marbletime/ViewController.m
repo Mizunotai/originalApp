@@ -150,9 +150,9 @@
             }
     if (clearcount[8] ==10 ) {
         
+       
         
         [self.view addSubview:scroll];
-        
         [scroll addSubview:LevelBtn[1]];
         [scroll  addSubview:LevelBtn[2]];
         [scroll  addSubview:LevelBtn[3]];

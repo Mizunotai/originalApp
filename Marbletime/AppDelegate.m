@@ -32,8 +32,8 @@
             storyBoardName = @"Main4";
         }
     }else{
-        // NSLog(@"iPad");
-        storyBoardName = @"Storyboard-3.5Inch";
+         NSLog(@"iPad");
+        storyBoardName = @"ipad";
     }
     // StoryBoardのインスタンス化
     storyboard = [UIStoryboard storyboardWithName:storyBoardName bundle:nil];
@@ -43,6 +43,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = mainViewController;
     [self.window makeKeyAndVisible];
+    
+    
+    
+    
     return YES;
     
 }
