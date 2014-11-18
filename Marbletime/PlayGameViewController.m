@@ -1360,6 +1360,9 @@
     }
     /*レベル９*/
     if (count[0] == 9 && count[1] == 9 && count[2] == 9 && count[3] == 9 && count[4] == 9 && count[5] == 9 && count[6]== 9 && count[7]== 9 && count[8]== 9 && count[9]==9) {
+        
+        UIAlertView *alert =[[UIAlertView alloc]initWithTitle:@"スペシャルコース" message:@"出現" delegate:nil cancelButtonTitle:nil otherButtonTitles: @"了解", nil];
+        [alert show];
         /*クリアした時にクリアボタンの表示*/
         UIButton *clearbtn = [[UIButton alloc]
                               initWithFrame:CGRectMake(0,0, 320, 566)];
@@ -1378,6 +1381,8 @@
         NSLog(@"%@保存成功 保存用の数%d",[[[NSUserDefaults standardUserDefaults]
                                   dictionaryRepresentation]allKeys],clearcount[8]);
   [clearAudio play];
+        
+        
     }
     TimeLabel.text =[NSString stringWithFormat:@"%1d",Playtime];
     
