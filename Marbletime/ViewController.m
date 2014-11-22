@@ -107,12 +107,7 @@
     clearcount[8] =[countUD[8] integerForKey:@"key8"];
     
    NSLog(@"%@保存成功 ",[[[NSUserDefaults standardUserDefaults]dictionaryRepresentation]allKeys]);
-//
-//    UITextView *TextView =[[UITextView alloc]initWithFrame:CGRectMake(330, 237, 100, 100)];
-//    TextView.editable = YES;
-//    TextView.text =@"";
-//    [scroll addSubview:TextView];
-    
+
     
     
     if (clearcount[0] == 2  ){
