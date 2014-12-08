@@ -43,8 +43,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = mainViewController;
     [self.window makeKeyAndVisible];
-    
-    
+
     
     
     return YES;

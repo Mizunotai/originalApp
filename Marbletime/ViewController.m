@@ -94,7 +94,7 @@
     countUD[2] =[NSUserDefaults standardUserDefaults];
     clearcount[2] =[countUD[2] integerForKey:@"key2"];
     countUD[3] =[NSUserDefaults standardUserDefaults];
-    clearcount[5] =[countUD[3] integerForKey:@"key3"];
+    clearcount[3] =[countUD[3] integerForKey:@"key3"];
     countUD[4] =[NSUserDefaults standardUserDefaults];
     clearcount[4] =[countUD[4] integerForKey:@"key4"];
     countUD[5] =[NSUserDefaults standardUserDefaults];
@@ -107,7 +107,7 @@
     clearcount[8] =[countUD[8] integerForKey:@"key8"];
     
    NSLog(@"%@保存成功 ",[[[NSUserDefaults standardUserDefaults]dictionaryRepresentation]allKeys]);
-
+    
     
     
     if (clearcount[0] == 2  ){

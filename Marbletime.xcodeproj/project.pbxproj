@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		B605BB411A202AC5002EC5E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B605BB401A202AC5002EC5E0 /* Main.storyboard */; };
 		B605BB431A202AD3002EC5E0 /* Main4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B605BB421A202AD3002EC5E0 /* Main4.storyboard */; };
-		B605BB451A202AE6002EC5E0 /* ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B605BB441A202AE6002EC5E0 /* ipad.storyboard */; };
 		B64DA0051A05EBF7006CE056 /* gameclear.png in Resources */ = {isa = PBXBuildFile; fileRef = B64DA0041A05EBF7006CE056 /* gameclear.png */; };
 		B64DA0091A05FE89006CE056 /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = B64DA0081A05FE89006CE056 /* gameover.png */; };
+		B663FE581A207D2700148F70 /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = B663FE571A207D2700148F70 /* icon120.png */; };
+		B663FE5A1A207EE400148F70 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B663FE591A207EE400148F70 /* Default-568h@2x.png */; };
+		B663FE5E1A216B6800148F70 /* ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B663FE5D1A216B6800148F70 /* ipad.storyboard */; };
 		B6A877FE19E3D978009579A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A877FD19E3D978009579A0 /* Foundation.framework */; };
 		B6A8780019E3D978009579A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A877FF19E3D978009579A0 /* CoreGraphics.framework */; };
 		B6A8780219E3D978009579A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A8780119E3D978009579A0 /* UIKit.framework */; };
@@ -64,9 +66,11 @@
 		B605BB381A2028FC002EC5E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B605BB401A202AC5002EC5E0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B605BB421A202AD3002EC5E0 /* Main4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main4.storyboard; sourceTree = "<group>"; };
-		B605BB441A202AE6002EC5E0 /* ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ipad.storyboard; sourceTree = "<group>"; };
 		B64DA0041A05EBF7006CE056 /* gameclear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameclear.png; sourceTree = "<group>"; };
 		B64DA0081A05FE89006CE056 /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
+		B663FE571A207D2700148F70 /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		B663FE591A207EE400148F70 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B663FE5D1A216B6800148F70 /* ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ipad.storyboard; sourceTree = "<group>"; };
 		B6A877FA19E3D978009579A0 /* Marbletime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marbletime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A877FD19E3D978009579A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B6A877FF19E3D978009579A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -177,7 +181,7 @@
 				B6A8780C19E3D978009579A0 /* AppDelegate.h */,
 				B6A8780D19E3D978009579A0 /* AppDelegate.m */,
 				B605BB401A202AC5002EC5E0 /* Main.storyboard */,
-				B605BB441A202AE6002EC5E0 /* ipad.storyboard */,
+				B663FE5D1A216B6800148F70 /* ipad.storyboard */,
 				B605BB421A202AD3002EC5E0 /* Main4.storyboard */,
 				B6A8781219E3D978009579A0 /* ViewController.h */,
 				B6A8781319E3D978009579A0 /* ViewController.m */,
@@ -220,6 +224,8 @@
 		B6A8783219E3D9BF009579A0 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				B663FE591A207EE400148F70 /* Default-568h@2x.png */,
+				B663FE571A207D2700148F70 /* icon120.png */,
 				B64DA0081A05FE89006CE056 /* gameover.png */,
 				B64DA0041A05EBF7006CE056 /* gameclear.png */,
 				B6BADD9D19ED6E36007447E8 /* specials.jpg */,
@@ -338,6 +344,7 @@
 				B6BADD9E19ED6E36007447E8 /* specials.jpg in Resources */,
 				B6BADD7C19ED04E9007447E8 /* Level3.png in Resources */,
 				B6BADD8319ED04E9007447E8 /* main_bidama.png in Resources */,
+				B663FE581A207D2700148F70 /* icon120.png in Resources */,
 				B6BADD6419ED04B3007447E8 /* ball.png in Resources */,
 				B6BADD8119ED04E9007447E8 /* Level8.png in Resources */,
 				B6BADD7719ED04E9007447E8 /* desk.jpg in Resources */,
@@ -352,14 +359,15 @@
 				B6BADD7B19ED04E9007447E8 /* Level2.png in Resources */,
 				B6BADD9719ED4117007447E8 /* house.png in Resources */,
 				B64DA0091A05FE89006CE056 /* gameover.png in Resources */,
+				B663FE5E1A216B6800148F70 /* ipad.storyboard in Resources */,
 				B605BB431A202AD3002EC5E0 /* Main4.storyboard in Resources */,
 				B6BADD7F19ED04E9007447E8 /* Level6.png in Resources */,
 				B64DA0051A05EBF7006CE056 /* gameclear.png in Resources */,
 				B6BADD8419ED04E9007447E8 /* top.png in Resources */,
 				B6A8780819E3D978009579A0 /* InfoPlist.strings in Resources */,
+				B663FE5A1A207EE400148F70 /* Default-568h@2x.png in Resources */,
 				B6BADDA219EEA593007447E8 /* クリア.mp3 in Resources */,
 				B6BADDA119EEA593007447E8 /* Game Over.mp3 in Resources */,
-				B605BB451A202AE6002EC5E0 /* ipad.storyboard in Resources */,
 				B6BADD7E19ED04E9007447E8 /* Level5.png in Resources */,
 				B6BADD8019ED04E9007447E8 /* Level7.png in Resources */,
 				B6BADD7D19ED04E9007447E8 /* Level4.png in Resources */,
@@ -442,7 +450,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iOS Distribution: Rika Mizuno";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Distribution: Rika Mizuno";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -458,8 +467,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				ONLY_ACTIVE_ARCH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "9f964c91-9c8c-41fa-af10-c9be7c8f7d8b";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -480,7 +490,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iOS Distribution: Rika Mizuno";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Distribution: Rika Mizuno";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -490,7 +501,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "9f964c91-9c8c-41fa-af10-c9be7c8f7d8b";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -500,14 +513,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iOS Distribution: Rika Mizuno";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Distribution: Rika Mizuno";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Marbletime/Marbletime-Prefix.pch";
 				INFOPLIST_FILE = "Marbletime/Marbletime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "9f964c91-9c8c-41fa-af10-c9be7c8f7d8b";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -517,14 +530,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iOS Distribution: Rika Mizuno";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Distribution: Rika Mizuno";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Marbletime/Marbletime-Prefix.pch";
 				INFOPLIST_FILE = "Marbletime/Marbletime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "9f964c91-9c8c-41fa-af10-c9be7c8f7d8b";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

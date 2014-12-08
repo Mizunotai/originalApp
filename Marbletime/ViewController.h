@@ -13,6 +13,7 @@ int number;
     UIButton *LevelBtn[10];
     UIButton *superbtn;
     UILabel *specilLabel;
+    
 }
 
 @end

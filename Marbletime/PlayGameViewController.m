@@ -27,6 +27,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+   
     UIImage *image1 =[UIImage imageNamed:@"desk.jpg"];
     [desk setImage:image1];
     
@@ -65,6 +66,7 @@
     CGRect rect= CGRectMake(self.view.frame.size.width/2 - 20,self.view.frame.size.height-100, 40,  40);
     mainBidama.frame = rect;
     [self.view addSubview:mainBidama];
+   
     
     /*固定ボールの追加*/
     //1
@@ -1536,6 +1538,8 @@
 
 - (void)didReceiveMemoryWarning
 {
+    
+
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
