@@ -576,7 +576,7 @@
     distance[9] = (mainBidama.center.x - ball[9].center.x)*(mainBidama.center.x - ball[9].center.x)
     +(mainBidama.center.y - ball[9].center.y)*(mainBidama.center.y- ball[9].center.y);
     
-    if (distance[0]<40*40) {
+    if (distance[0] < 40*40) {
         
         if (number == 10) {
             [ball[0] removeFromSuperview];
@@ -589,7 +589,7 @@
         //1個目のボールとの当たり判定
         ballMoveX=-ballMoveX;
         ballMoveY=-ballMoveY;
-        // NSLog(@"ATARI:%.1f", distance);
+         NSLog(@"ATARI:%f", distance[0]);
         //ビー玉とボールが当たったあとにかわる画像
         UIImage *ballimag =[UIImage imageNamed:@"green_ball.png"];
         CGPoint point = ball[0].center;
