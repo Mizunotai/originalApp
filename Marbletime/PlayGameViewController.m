@@ -509,8 +509,22 @@
     
     saikai =[[UIButton alloc]initWithFrame:CGRectMake(self.view.frame.size.width/2+45  , 186, 50,50)];
     
+    clearbtn = [[UIButton alloc]
+                          initWithFrame:CGRectMake(0,0, 320, 566)];
+    UIImage *clearimg = [UIImage imageNamed:@"gameclear.png"];
+    [clearbtn setBackgroundImage:clearimg forState:UIControlStateNormal];
+    [clearbtn addTarget:self
+                 action:@selector(Home:) forControlEvents:UIControlEventTouchUpInside];
 
    
+    Endbtn = [[UIButton alloc]
+                        initWithFrame:CGRectMake(0,0, 320, 566)] ;  // ボタンのサイズを指定する
+    
+    UIImage *img = [UIImage imageNamed:@"gameover.png"];  // ボタンにする画像を生成する
+    [Endbtn setBackgroundImage:img forState:UIControlStateNormal];  // 画像をセットする
+    // ボタンが押された時にHomeメソッドを呼び出す
+    [Endbtn addTarget:self
+               action:@selector(Home:) forControlEvents:UIControlEventTouchUpInside];
     
 
 }
@@ -1152,35 +1166,27 @@
         specilUD =[NSUserDefaults standardUserDefaults];
         [specilUD setInteger:specilCount forKey:@"specil"];
 
+
         
-        UIButton *Endbtn = [[UIButton alloc]
-                            initWithFrame:CGRectMake(0,0, 320, 566)] ;  // ボタンのサイズを指定する
-        
-        UIImage *img = [UIImage imageNamed:@"gameover.png"];  // ボタンにする画像を生成する
-        [Endbtn setBackgroundImage:img forState:UIControlStateNormal];  // 画像をセットする
-        // ボタンが押された時にHomeメソッドを呼び出す
-        [Endbtn addTarget:self
-                   action:@selector(Home:) forControlEvents:UIControlEventTouchUpInside];
-        
-        //[desk insertSubview:btn atIndex:0];
+      
         [self.view addSubview:Endbtn];
+        
+        
         [PlayTimers invalidate];
         mainBidama.userInteractionEnabled = NO;
         
         saikai.hidden = YES;
         mouitido.hidden = YES;
         home.hidden = YES;
+        
+     
     }
     
     /*レベル１*/
     if (count[0] && count[1] && count[2]  == 1){
+        Endbtn.hidden=YES;
         /*クリアした時にクリアボタンの表示*/
-        UIButton *clearbtn = [[UIButton alloc]
-                              initWithFrame:CGRectMake(0,0, 320, 566)];
-        UIImage *clearimg = [UIImage imageNamed:@"gameclear.png"];
-        [clearbtn setBackgroundImage:clearimg forState:UIControlStateNormal];
-        [clearbtn addTarget:self
-                     action:@selector(Home:) forControlEvents:UIControlEventTouchUpInside];
+        
         [self.view addSubview:clearbtn];
         [PlayTimers invalidate];
         [audio stop];
@@ -1197,19 +1203,14 @@
                                   dictionaryRepresentation]allKeys],clearcount[0]);
         [clearAudio play];
         
+        
     }
     /*レベル２*/
     if (count[0] ==2 && count[1] ==2 && count[2] ==2 && count[3] ==2) {
         
-        
+        Endbtn.hidden=YES;
         /*クリアした時にクリアボタンの表示*/
-        UIButton *clearbtn = [[UIButton alloc]
-                              initWithFrame:CGRectMake(0,0, 320, 566)];
-        UIImage *clearimg = [UIImage imageNamed:@"gameclear.png"];
 
-        [clearbtn setBackgroundImage:clearimg forState:UIControlStateNormal];
-        [clearbtn addTarget:self
-                     action:@selector(Home:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:clearbtn];
         [PlayTimers invalidate];
         
@@ -1226,15 +1227,10 @@
     }
     /*レベル３*/
     if (count[0] == 3 && count[1] == 3 && count[2] == 3 && count[3] == 3 && count[4] ==3) {
-        
+      Endbtn.hidden=YES;
         
         /*クリアした時にクリアボタンの表示*/
-        UIButton *clearbtn = [[UIButton alloc]
-                              initWithFrame:CGRectMake(0,0, 320, 566)];
-        UIImage *clearimg = [UIImage imageNamed:@"gameclear.png"];
-        [clearbtn setBackgroundImage:clearimg forState:UIControlStateNormal];
-        [clearbtn addTarget:self
-                     action:@selector(Home:) forControlEvents:UIControlEventTouchUpInside];
+
         [self.view addSubview:clearbtn];
         [PlayTimers invalidate];
         [audio2 stop];
@@ -1250,13 +1246,9 @@
     }
     /*レベル４*/
     if (count[0] == 4 && count[1] == 4 && count[2] == 4 && count[3] == 4 && count[4] == 4 && count[5] == 4 ){
+        Endbtn.hidden=YES;
         /*クリアした時にクリアボタンの表示*/
-        UIButton *clearbtn = [[UIButton alloc]
-                              initWithFrame:CGRectMake(0,0, 320, 566)];
-        UIImage *clearimg = [UIImage imageNamed:@"gameclear.png"];
-        [clearbtn setBackgroundImage:clearimg forState:UIControlStateNormal];
-        [clearbtn addTarget:self
-                     action:@selector(Home:) forControlEvents:UIControlEventTouchUpInside];
+
         [self.view addSubview:clearbtn];
         [PlayTimers invalidate];
         [audio2 stop];
@@ -1271,13 +1263,8 @@
     }
     /*レベル５*/
     if (count[0] == 5 && count[1] == 5 && count[2] == 5 && count[3] == 5 && count[4] == 5 && count[5] == 5 && count[6]== 5) {
+        Endbtn.hidden=YES;
         /*クリアした時にクリアボタンの表示*/
-        UIButton *clearbtn = [[UIButton alloc]
-                              initWithFrame:CGRectMake(0,0, 320, 566)];
-        UIImage *clearimg = [UIImage imageNamed:@"gameclear.png"];
-        [clearbtn setBackgroundImage:clearimg forState:UIControlStateNormal];
-        [clearbtn addTarget:self
-                     action:@selector(Home:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:clearbtn];
         [PlayTimers invalidate];
         [audio2 stop];
@@ -1292,14 +1279,9 @@
     }
     /*レベル６*/
     if (count[0] == 6 && count[1] == 6 && count[2] == 6 && count[3] == 6 && count[4] == 6 && count[5] == 6 && count[6]== 6 && count[7]== 6) {
+        Endbtn.hidden=YES;
         /*クリアした時にクリアボタンの表示*/
-        UIButton *clearbtn = [[UIButton alloc]
-                              initWithFrame:CGRectMake(0,0, 320, 566)];
-        UIImage *clearimg = [UIImage imageNamed:@"gameclear.png"];
 
-        [clearbtn setBackgroundImage:clearimg forState:UIControlStateNormal];
-        [clearbtn addTarget:self
-                     action:@selector(Home:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:clearbtn];
         [PlayTimers invalidate];
         [audio2 stop];
@@ -1316,13 +1298,9 @@
     }
     /*レベル７*/
     if (count[0] == 7 && count[1] == 7 && count[2] == 7 && count[3] == 7 && count[4] == 7 && count[5] == 7 && count[6]== 7 && count[7]== 7 && count[8]== 7) {
+        Endbtn.hidden=YES;
         /*クリアした時にクリアボタンの表示*/
-        UIButton *clearbtn = [[UIButton alloc]
-                              initWithFrame:CGRectMake(0,0, 320, 566)];
-        UIImage *clearimg = [UIImage imageNamed:@"gameclear.png"];
-        [clearbtn setBackgroundImage:clearimg forState:UIControlStateNormal];
-        [clearbtn addTarget:self
-                     action:@selector(Home:) forControlEvents:UIControlEventTouchUpInside];
+
         [self.view addSubview:clearbtn];
         [PlayTimers invalidate];
         [audio2 stop];
@@ -1339,13 +1317,8 @@
     }
     /*レベル８*/
     if (count[0] == 8 && count[1] == 8 && count[2] == 8 && count[3] == 8 && count[4] == 8 && count[5] == 8 && count[6]== 8 && count[7]== 8 && count[8]== 8 && count[9]==8) {
+        Endbtn.hidden=YES;
         /*クリアした時にクリアボタンの表示*/
-        UIButton *clearbtn = [[UIButton alloc]
-                              initWithFrame:CGRectMake(0,0, 320, 566)];
-        UIImage *clearimg = [UIImage imageNamed:@"gameclear.png"];
-        [clearbtn setBackgroundImage:clearimg forState:UIControlStateNormal];
-        [clearbtn addTarget:self
-                     action:@selector(Home:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:clearbtn];
         [PlayTimers invalidate];
         [audio2 stop];
@@ -1365,13 +1338,7 @@
         
         UIAlertView *alert =[[UIAlertView alloc]initWithTitle:@"スペシャルコース" message:@"出現" delegate:nil cancelButtonTitle:nil otherButtonTitles: @"了解", nil];
         [alert show];
-        /*クリアした時にクリアボタンの表示*/
-        UIButton *clearbtn = [[UIButton alloc]
-                              initWithFrame:CGRectMake(0,0, 320, 566)];
-        UIImage *clearimg = [UIImage imageNamed:@"gameclear.png"];
-        [clearbtn setBackgroundImage:clearimg forState:UIControlStateNormal];
-        [clearbtn addTarget:self
-                     action:@selector(Home:) forControlEvents:UIControlEventTouchUpInside];
+        Endbtn.hidden=YES;
         [self.view addSubview:clearbtn];
         [PlayTimers invalidate];
         [audio2 stop];

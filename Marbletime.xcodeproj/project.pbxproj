@@ -28,6 +28,13 @@
 		B6A8782919E3D978009579A0 /* MarbletimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A8782819E3D978009579A0 /* MarbletimeTests.m */; };
 		B6A8783719E3DBE1009579A0 /* PlayGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A8783619E3DBE1009579A0 /* PlayGameViewController.m */; };
 		B6A8783919E3DCDF009579A0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A8783819E3DCDF009579A0 /* AVFoundation.framework */; };
+		B6B9609A1A454F88007B98C5 /* GameFeatKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B960991A454F88007B98C5 /* GameFeatKit.framework */; };
+		B6B960A01A45507D007B98C5 /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = B6B9609C1A45507D007B98C5 /* CHANGELOG.md */; };
+		B6B960A11A45507D007B98C5 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B9609E1A45507D007B98C5 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B6B960A21A45507D007B98C5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B6B9609F1A45507D007B98C5 /* README.md */; };
+		B6B960A71A455AEB007B98C5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B960A31A455843007B98C5 /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B6B960A91A455AFA007B98C5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B960A81A455AFA007B98C5 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B6B960AA1A455B08007B98C5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B960A51A455897007B98C5 /* CoreTelephony.framework */; };
 		B6BADD6219ED04A1007447E8 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6BADD6119ED04A1007447E8 /* audio.mp3 */; };
 		B6BADD6419ED04B3007447E8 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BADD6319ED04B3007447E8 /* ball.png */; };
 		B6BADD6619ED04CA007447E8 /* bidama.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6BADD6519ED04CA007447E8 /* bidama.mp3 */; };
@@ -91,6 +98,14 @@
 		B6A8783519E3DBE1009579A0 /* PlayGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayGameViewController.h; sourceTree = "<group>"; };
 		B6A8783619E3DBE1009579A0 /* PlayGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayGameViewController.m; sourceTree = "<group>"; };
 		B6A8783819E3DCDF009579A0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B6B960991A454F88007B98C5 /* GameFeatKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GameFeatKit.framework; sourceTree = "<group>"; };
+		B6B9609C1A45507D007B98C5 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		B6B9609D1A45507D007B98C5 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		B6B9609E1A45507D007B98C5 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		B6B9609F1A45507D007B98C5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B6B960A31A455843007B98C5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B6B960A51A455897007B98C5 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B6B960A81A455AFA007B98C5 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		B6BADD6119ED04A1007447E8 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 		B6BADD6319ED04B3007447E8 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 		B6BADD6519ED04CA007447E8 /* bidama.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bidama.mp3; sourceTree = "<group>"; };
@@ -121,7 +136,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B960AA1A455B08007B98C5 /* CoreTelephony.framework in Frameworks */,
+				B6B960A91A455AFA007B98C5 /* AdSupport.framework in Frameworks */,
+				B6B960A71A455AEB007B98C5 /* StoreKit.framework in Frameworks */,
 				B6A8783919E3DCDF009579A0 /* AVFoundation.framework in Frameworks */,
+				B6B9609A1A454F88007B98C5 /* GameFeatKit.framework in Frameworks */,
 				B6A8780019E3D978009579A0 /* CoreGraphics.framework in Frameworks */,
 				B6A8780219E3D978009579A0 /* UIKit.framework in Frameworks */,
 				B6A877FE19E3D978009579A0 /* Foundation.framework in Frameworks */,
@@ -164,6 +183,10 @@
 		B6A877FC19E3D978009579A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B6B960A81A455AFA007B98C5 /* AdSupport.framework */,
+				B6B960A51A455897007B98C5 /* CoreTelephony.framework */,
+				B6B960A31A455843007B98C5 /* StoreKit.framework */,
+				B6B960991A454F88007B98C5 /* GameFeatKit.framework */,
 				B6A8783819E3DCDF009579A0 /* AVFoundation.framework */,
 				B6A877FD19E3D978009579A0 /* Foundation.framework */,
 				B6A877FF19E3D978009579A0 /* CoreGraphics.framework */,
@@ -187,6 +210,7 @@
 				B6A8781319E3D978009579A0 /* ViewController.m */,
 				B6A8783519E3DBE1009579A0 /* PlayGameViewController.h */,
 				B6A8783619E3DBE1009579A0 /* PlayGameViewController.m */,
+				B6B9609B1A45507D007B98C5 /* JSONKit-master */,
 				B6A8780419E3D978009579A0 /* Supporting Files */,
 			);
 			path = Marbletime;
@@ -249,6 +273,17 @@
 				B6BADD6319ED04B3007447E8 /* ball.png */,
 			);
 			name = image;
+			sourceTree = "<group>";
+		};
+		B6B9609B1A45507D007B98C5 /* JSONKit-master */ = {
+			isa = PBXGroup;
+			children = (
+				B6B9609C1A45507D007B98C5 /* CHANGELOG.md */,
+				B6B9609D1A45507D007B98C5 /* JSONKit.h */,
+				B6B9609E1A45507D007B98C5 /* JSONKit.m */,
+				B6B9609F1A45507D007B98C5 /* README.md */,
+			);
+			path = "JSONKit-master";
 			sourceTree = "<group>";
 		};
 		B6BADDA319F23D6D007447E8 /* sound */ = {
@@ -390,6 +425,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6A8781419E3D978009579A0 /* ViewController.m in Sources */,
+				B6B960A01A45507D007B98C5 /* CHANGELOG.md in Sources */,
+				B6B960A11A45507D007B98C5 /* JSONKit.m in Sources */,
+				B6B960A21A45507D007B98C5 /* README.md in Sources */,
 				B6A8780E19E3D978009579A0 /* AppDelegate.m in Sources */,
 				B6A8783719E3DBE1009579A0 /* PlayGameViewController.m in Sources */,
 				B6A8780A19E3D978009579A0 /* main.m in Sources */,
@@ -515,6 +553,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iOS Distribution: Rika Mizuno";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Distribution: Rika Mizuno";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Marbletime/Marbletime-Prefix.pch";
 				INFOPLIST_FILE = "Marbletime/Marbletime-Info.plist";
@@ -532,6 +574,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Distribution: Rika Mizuno";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Marbletime/Marbletime-Prefix.pch";
 				INFOPLIST_FILE = "Marbletime/Marbletime-Info.plist";

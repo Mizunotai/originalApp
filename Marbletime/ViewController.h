@@ -7,12 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GameFeatKit/GFIconController.h>
+#import <GameFeatKit/GFIconView.h>
 
 int number;
 @interface ViewController : UIViewController{
     UIButton *LevelBtn[10];
     UIButton *superbtn;
     UILabel *specilLabel;
+    GFIconController *gfIconController;
     
 }
 

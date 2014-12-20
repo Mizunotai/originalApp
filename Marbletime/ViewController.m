@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "PlayGameViewController.h"
+
 @interface ViewController ()
 
 @end
@@ -17,10 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
     number = 0;
-//    countUD[1] =[NSUserDefaults standardUserDefaults];
-//    [countUD[1] removeObjectForKey:@"key1"];
-	// Do any additional setup after loading the view, typically from a nib.
+
     if( [ UIApplication sharedApplication ].isStatusBarHidden == NO ) {
         [ UIApplication sharedApplication ].statusBarHidden = YES;
     }
@@ -172,6 +173,21 @@
         
     }
 
+    
+    // GFIconControllerの初期化
+    gfIconController = [[GFIconController alloc] init];
+    
+    // アイコンの自動更新間隔を指定（デフォルトで30秒／最短10秒）
+    [gfIconController setRefreshTiming:30];
+    
+    // アイコンの配置位置を設定（1個〜20個まで設置出来ます）
+    
+    GFIconView *iconView = [[GFIconView alloc] initWithFrame:CGRectMake(18, 150, 60, 60)];
+    [gfIconController addIconView:iconView];
+    
+//    iconView.backgroundColor = [UIColor redColor];
+    
+    [self.view addSubview:iconView];
 
 }
 -(void)LavelOne:(UIButton *)button{
@@ -245,6 +261,59 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+//- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+//{
+//    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+//    if (self) {
+//        
+//        // GFIconControllerの初期化
+//        gfIconController = [[GFIconController alloc] init];
+//        
+//        // アイコンの自動更新間隔を指定（デフォルトで30秒／最短10秒）
+//        [gfIconController setRefreshTiming:30];
+//        
+//        // アイコンの配置位置を設定（1個〜20個まで設置出来ます）
+//        
+//        GFIconView *iconView = [[GFIconView alloc] initWithFrame:CGRectMake(18, 150, 60, 60)];
+//        [gfIconController addIconView:iconView];
+//        [self.view addSubview:iconView];
+//        
+//    }
+//    
+//    return self;
+//}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    // アイコン広告の表示
+    [gfIconController loadAd:@"8860"];
+    [gfIconController visibleIconAd];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    // アイコン広告の自動更新を停止
+    [gfIconController stopAd];
+    [super viewWillDisappear:animated];
+}
+/**
+ * アイコン型GameFeat表示
+ */
+- (void)showIconGameFeat {
+    [gfIconController loadAd:@"8860"];
+    [gfIconController visibleIconAd];
+}
+
+/**
+ * アイコン型GameFeat非表示
+ */
+- (void)hideIconGameFeat {
+    [gfIconController stopAd];
+    [gfIconController invisibleIconAd];
 }
 
 @end

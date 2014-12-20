@@ -52,7 +52,10 @@ NSUserDefaults *specilUD;
     UIButton *saikai;//再開するボタン
     
     UIButton *mouitido ;
+    
+    UIButton *clearbtn;
   
+    UIButton *Endbtn;
     float  distance[10];
     
     
