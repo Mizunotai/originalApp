@@ -15,6 +15,7 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -80,7 +81,7 @@
    
     specilUD =[NSUserDefaults standardUserDefaults];
     specilCount =[specilUD integerForKey:@"specil"];
-    NSLog(@"今の記録%d",specilCount);
+//    NSLog(@"今の記録%d",specilCount);
     
     specilLabel =[[UILabel alloc]init];
     specilLabel.text =[NSString stringWithFormat:@"記録%d",specilCount];
@@ -107,7 +108,7 @@
     countUD[8] =[NSUserDefaults standardUserDefaults];
     clearcount[8] =[countUD[8] integerForKey:@"key8"];
     
-   NSLog(@"%@保存成功 ",[[[NSUserDefaults standardUserDefaults]dictionaryRepresentation]allKeys]);
+   //NSLog(@"%@保存成功 ",[[[NSUserDefaults standardUserDefaults]dictionaryRepresentation]allKeys]);
     
     
     
@@ -182,13 +183,24 @@
     
     // アイコンの配置位置を設定（1個〜20個まで設置出来ます）
     
-    GFIconView *iconView = [[GFIconView alloc] initWithFrame:CGRectMake(18, 150, 60, 60)];
+    GFIconView *iconView = [[GFIconView alloc] initWithFrame:CGRectMake(7, 490, 60, 60)];
     [gfIconController addIconView:iconView];
-    
-//    iconView.backgroundColor = [UIColor redColor];
-    
+    GFIconView*iconView2=[[GFIconView alloc]initWithFrame:CGRectMake(67, 490, 60, 60)];
+    [gfIconController addIconView:iconView2];
+    GFIconView *iconview3 =[[GFIconView alloc]initWithFrame:CGRectMake(127, 490, 60, 60)];
+    [gfIconController addIconView:iconview3];
+    GFIconView *iconview4=[[GFIconView alloc]initWithFrame:CGRectMake(187, 490, 60, 60)];
+    [gfIconController addIconView:iconview4];
+    GFIconView *iconview5 =[[GFIconView alloc]initWithFrame:CGRectMake(247, 490, 60, 60)];
+    [gfIconController addIconView:iconview5];
     [self.view addSubview:iconView];
-
+    [self.view addSubview:iconView2];
+    [self.view addSubview:iconview3];
+    [self.view addSubview:iconview4];
+    [self.view addSubview:iconview5];
+    
+ 
+    
 }
 -(void)LavelOne:(UIButton *)button{
     number =1;
@@ -314,6 +326,21 @@
 - (void)hideIconGameFeat {
     [gfIconController stopAd];
     [gfIconController invisibleIconAd];
+}
+
+// 全画面広告が表示された際に実行される
+- (void)didShowGameFeatPopup{
+    NSLog(@"didShowGameFeatPopup");
+}
+
+// 全画面広告が閉じられた際に実行される
+- (void)didCloseGameFeatPopup{
+    NSLog(@"didCloseGameFeatPopup");
+}
+
+// 全画面広告が表示できなかった際に実行される
+- (void)failGameFeatPopupData{
+    NSLog(@"failGameFeatPopupData");
 }
 
 @end

@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 #import <GameFeatKit/GFIconController.h>
 #import <GameFeatKit/GFIconView.h>
-
+#import <GameFeatKit/GFPopupView.h>
 int number;
-@interface ViewController : UIViewController{
+@interface ViewController : UIViewController <GFPopupViewDelegate>{
     UIButton *LevelBtn[10];
     UIButton *superbtn;
     UILabel *specilLabel;

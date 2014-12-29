@@ -64,6 +64,9 @@
 {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
 //      [GFController conversionCheckStop];
+   
+  //  [GFController conversionCheckStop];
+    
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
@@ -71,7 +74,7 @@
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
    
     // 初期化コードの引数
-    [GFController activateGF:@"8860" useCustom:NO useIcon:YES usePopup:NO];
+    [GFController activateGF:@"8860" useCustom:NO useIcon:YES usePopup:YES];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
@@ -89,6 +92,7 @@
     if (backgroundSupported) {
         [GFController backgroundTask];
     }
+
 }
 
 @end
