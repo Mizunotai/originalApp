@@ -201,6 +201,7 @@
     
  
     
+    
 }
 -(void)LavelOne:(UIButton *)button{
     number =1;
