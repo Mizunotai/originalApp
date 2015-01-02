@@ -57,6 +57,21 @@
 		B6BADD9E19ED6E36007447E8 /* specials.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6BADD9D19ED6E36007447E8 /* specials.jpg */; };
 		B6BADDA119EEA593007447E8 /* Game Over.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6BADD9F19EEA593007447E8 /* Game Over.mp3 */; };
 		B6BADDA219EEA593007447E8 /* クリア.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6BADDA019EEA593007447E8 /* クリア.mp3 */; };
+		B6C7ABB61A56C0A2009CF339 /* gamefeat_bg_loading.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABA71A56C0A2009CF339 /* gamefeat_bg_loading.png */; };
+		B6C7ABB71A56C0A2009CF339 /* gamefeat_btn_back.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABA81A56C0A2009CF339 /* gamefeat_btn_back.png */; };
+		B6C7ABB81A56C0A2009CF339 /* gamefeat_btn_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABA91A56C0A2009CF339 /* gamefeat_btn_cancel.png */; };
+		B6C7ABB91A56C0A2009CF339 /* gamefeat_btn_download.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABAA1A56C0A2009CF339 /* gamefeat_btn_download.png */; };
+		B6C7ABBA1A56C0A2009CF339 /* gamefeat_btn_review.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABAB1A56C0A2009CF339 /* gamefeat_btn_review.png */; };
+		B6C7ABBB1A56C0A2009CF339 /* gamefeat_btn_update.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABAC1A56C0A2009CF339 /* gamefeat_btn_update.png */; };
+		B6C7ABBC1A56C0A2009CF339 /* gamefeat_error.html in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABAD1A56C0A2009CF339 /* gamefeat_error.html */; };
+		B6C7ABBD1A56C0A2009CF339 /* gamefeat_icon_error.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABAE1A56C0A2009CF339 /* gamefeat_icon_error.png */; };
+		B6C7ABBE1A56C0A2009CF339 /* gamefeat_popup_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABAF1A56C0A2009CF339 /* gamefeat_popup_bg.png */; };
+		B6C7ABBF1A56C0A2009CF339 /* gamefeat_popup_bg_land.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABB01A56C0A2009CF339 /* gamefeat_popup_bg_land.png */; };
+		B6C7ABC01A56C0A2009CF339 /* gamefeat_popup_close.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABB11A56C0A2009CF339 /* gamefeat_popup_close.png */; };
+		B6C7ABC11A56C0A2009CF339 /* gamefeat_popup_close_land.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABB21A56C0A2009CF339 /* gamefeat_popup_close_land.png */; };
+		B6C7ABC21A56C0A2009CF339 /* gamefeat_popup_dl.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABB31A56C0A2009CF339 /* gamefeat_popup_dl.png */; };
+		B6C7ABC31A56C0A2009CF339 /* gamefeat_popup_dl_land.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABB41A56C0A2009CF339 /* gamefeat_popup_dl_land.png */; };
+		B6C7ABC41A56C0A2009CF339 /* gamefeat_style.css in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABB51A56C0A2009CF339 /* gamefeat_style.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +144,21 @@
 		B6BADD9D19ED6E36007447E8 /* specials.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = specials.jpg; sourceTree = "<group>"; };
 		B6BADD9F19EEA593007447E8 /* Game Over.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Game Over.mp3"; sourceTree = "<group>"; };
 		B6BADDA019EEA593007447E8 /* クリア.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "クリア.mp3"; sourceTree = "<group>"; };
+		B6C7ABA71A56C0A2009CF339 /* gamefeat_bg_loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_bg_loading.png; sourceTree = "<group>"; };
+		B6C7ABA81A56C0A2009CF339 /* gamefeat_btn_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_btn_back.png; sourceTree = "<group>"; };
+		B6C7ABA91A56C0A2009CF339 /* gamefeat_btn_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_btn_cancel.png; sourceTree = "<group>"; };
+		B6C7ABAA1A56C0A2009CF339 /* gamefeat_btn_download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_btn_download.png; sourceTree = "<group>"; };
+		B6C7ABAB1A56C0A2009CF339 /* gamefeat_btn_review.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_btn_review.png; sourceTree = "<group>"; };
+		B6C7ABAC1A56C0A2009CF339 /* gamefeat_btn_update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_btn_update.png; sourceTree = "<group>"; };
+		B6C7ABAD1A56C0A2009CF339 /* gamefeat_error.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gamefeat_error.html; sourceTree = "<group>"; };
+		B6C7ABAE1A56C0A2009CF339 /* gamefeat_icon_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_icon_error.png; sourceTree = "<group>"; };
+		B6C7ABAF1A56C0A2009CF339 /* gamefeat_popup_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_popup_bg.png; sourceTree = "<group>"; };
+		B6C7ABB01A56C0A2009CF339 /* gamefeat_popup_bg_land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_popup_bg_land.png; sourceTree = "<group>"; };
+		B6C7ABB11A56C0A2009CF339 /* gamefeat_popup_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_popup_close.png; sourceTree = "<group>"; };
+		B6C7ABB21A56C0A2009CF339 /* gamefeat_popup_close_land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_popup_close_land.png; sourceTree = "<group>"; };
+		B6C7ABB31A56C0A2009CF339 /* gamefeat_popup_dl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_popup_dl.png; sourceTree = "<group>"; };
+		B6C7ABB41A56C0A2009CF339 /* gamefeat_popup_dl_land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_popup_dl_land.png; sourceTree = "<group>"; };
+		B6C7ABB51A56C0A2009CF339 /* gamefeat_style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = gamefeat_style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +240,7 @@
 				B6A8781319E3D978009579A0 /* ViewController.m */,
 				B6A8783519E3DBE1009579A0 /* PlayGameViewController.h */,
 				B6A8783619E3DBE1009579A0 /* PlayGameViewController.m */,
+				B6C7ABA61A56C0A2009CF339 /* gamefeat */,
 				B6B9609B1A45507D007B98C5 /* JSONKit-master */,
 				B6A8780419E3D978009579A0 /* Supporting Files */,
 			);
@@ -297,6 +328,29 @@
 			name = sound;
 			sourceTree = "<group>";
 		};
+		B6C7ABA61A56C0A2009CF339 /* gamefeat */ = {
+			isa = PBXGroup;
+			children = (
+				B6C7ABA71A56C0A2009CF339 /* gamefeat_bg_loading.png */,
+				B6C7ABA81A56C0A2009CF339 /* gamefeat_btn_back.png */,
+				B6C7ABA91A56C0A2009CF339 /* gamefeat_btn_cancel.png */,
+				B6C7ABAA1A56C0A2009CF339 /* gamefeat_btn_download.png */,
+				B6C7ABAB1A56C0A2009CF339 /* gamefeat_btn_review.png */,
+				B6C7ABAC1A56C0A2009CF339 /* gamefeat_btn_update.png */,
+				B6C7ABAD1A56C0A2009CF339 /* gamefeat_error.html */,
+				B6C7ABAE1A56C0A2009CF339 /* gamefeat_icon_error.png */,
+				B6C7ABAF1A56C0A2009CF339 /* gamefeat_popup_bg.png */,
+				B6C7ABB01A56C0A2009CF339 /* gamefeat_popup_bg_land.png */,
+				B6C7ABB11A56C0A2009CF339 /* gamefeat_popup_close.png */,
+				B6C7ABB21A56C0A2009CF339 /* gamefeat_popup_close_land.png */,
+				B6C7ABB31A56C0A2009CF339 /* gamefeat_popup_dl.png */,
+				B6C7ABB41A56C0A2009CF339 /* gamefeat_popup_dl_land.png */,
+				B6C7ABB51A56C0A2009CF339 /* gamefeat_style.css */,
+			);
+			name = gamefeat;
+			path = "../../../Downloads/GameFeatSDK_iOS_v3.3-2.1/gamefeat";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -377,10 +431,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6BADD9E19ED6E36007447E8 /* specials.jpg in Resources */,
+				B6C7ABBB1A56C0A2009CF339 /* gamefeat_btn_update.png in Resources */,
+				B6C7ABBC1A56C0A2009CF339 /* gamefeat_error.html in Resources */,
+				B6C7ABC31A56C0A2009CF339 /* gamefeat_popup_dl_land.png in Resources */,
 				B6BADD7C19ED04E9007447E8 /* Level3.png in Resources */,
 				B6BADD8319ED04E9007447E8 /* main_bidama.png in Resources */,
 				B663FE581A207D2700148F70 /* icon120.png in Resources */,
+				B6C7ABB61A56C0A2009CF339 /* gamefeat_bg_loading.png in Resources */,
 				B6BADD6419ED04B3007447E8 /* ball.png in Resources */,
+				B6C7ABBF1A56C0A2009CF339 /* gamefeat_popup_bg_land.png in Resources */,
 				B6BADD8119ED04E9007447E8 /* Level8.png in Resources */,
 				B6BADD7719ED04E9007447E8 /* desk.jpg in Resources */,
 				B6BADD9A19ED4117007447E8 /* saikaiii.png in Resources */,
@@ -394,17 +453,27 @@
 				B6BADD7B19ED04E9007447E8 /* Level2.png in Resources */,
 				B6BADD9719ED4117007447E8 /* house.png in Resources */,
 				B64DA0091A05FE89006CE056 /* gameover.png in Resources */,
+				B6C7ABC41A56C0A2009CF339 /* gamefeat_style.css in Resources */,
+				B6C7ABBD1A56C0A2009CF339 /* gamefeat_icon_error.png in Resources */,
 				B663FE5E1A216B6800148F70 /* ipad.storyboard in Resources */,
+				B6C7ABC01A56C0A2009CF339 /* gamefeat_popup_close.png in Resources */,
+				B6C7ABB91A56C0A2009CF339 /* gamefeat_btn_download.png in Resources */,
+				B6C7ABB81A56C0A2009CF339 /* gamefeat_btn_cancel.png in Resources */,
 				B605BB431A202AD3002EC5E0 /* Main4.storyboard in Resources */,
+				B6C7ABC11A56C0A2009CF339 /* gamefeat_popup_close_land.png in Resources */,
+				B6C7ABB71A56C0A2009CF339 /* gamefeat_btn_back.png in Resources */,
 				B6BADD7F19ED04E9007447E8 /* Level6.png in Resources */,
+				B6C7ABBA1A56C0A2009CF339 /* gamefeat_btn_review.png in Resources */,
 				B64DA0051A05EBF7006CE056 /* gameclear.png in Resources */,
 				B6BADD8419ED04E9007447E8 /* top.png in Resources */,
 				B6A8780819E3D978009579A0 /* InfoPlist.strings in Resources */,
 				B663FE5A1A207EE400148F70 /* Default-568h@2x.png in Resources */,
 				B6BADDA219EEA593007447E8 /* クリア.mp3 in Resources */,
 				B6BADDA119EEA593007447E8 /* Game Over.mp3 in Resources */,
+				B6C7ABBE1A56C0A2009CF339 /* gamefeat_popup_bg.png in Resources */,
 				B6BADD7E19ED04E9007447E8 /* Level5.png in Resources */,
 				B6BADD8019ED04E9007447E8 /* Level7.png in Resources */,
+				B6C7ABC21A56C0A2009CF339 /* gamefeat_popup_dl.png in Resources */,
 				B6BADD7D19ED04E9007447E8 /* Level4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

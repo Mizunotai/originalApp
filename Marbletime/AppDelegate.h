@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <GameFeatKit/GFController.h>
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : NSObject <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

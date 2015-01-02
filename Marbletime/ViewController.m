@@ -199,6 +199,14 @@
     [self.view addSubview:iconview4];
     [self.view addSubview:iconview5];
     
+    // 全画面広告を初期化
+    GFPopupView *popupView = [[GFPopupView alloc] init];
+    // 指定した数値を母数としてランダム表示します（例えば2を指定した場合は、1/2の確立で表示されます）
+    [popupView setSchedule:5];
+    // 全画面広告の表示
+    if ([popupView loadAd:@"8860"]) {
+        [self.view addSubview:popupView];
+    }
  
     
     
