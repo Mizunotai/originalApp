@@ -1179,7 +1179,15 @@
         mouitido.hidden = YES;
         home.hidden = YES;
         
-     
+        // 全画面広告を初期化
+        GFPopupView *popupView = [[GFPopupView alloc] init];
+        // 指定した数値を母数としてランダム表示します（例えば2を指定した場合は、1/2の確立で表示されます）
+        [popupView setSchedule:5];
+        // 全画面広告の表示
+        if ([popupView loadAd:@"8860"]) {
+            [self.view addSubview:popupView];
+        }
+
     }
     
     /*レベル１*/
@@ -1202,7 +1210,15 @@
         NSLog(@"%@保存成功 保存用の数%d",[[[NSUserDefaults standardUserDefaults]
                                   dictionaryRepresentation]allKeys],clearcount[0]);
         [clearAudio play];
-        
+        // 全画面広告を初期化
+        GFPopupView *popupView = [[GFPopupView alloc] init];
+        // 指定した数値を母数としてランダム表示します（例えば2を指定した場合は、1/2の確立で表示されます）
+        [popupView setSchedule:5];
+        // 全画面広告の表示
+        if ([popupView loadAd:@"8860"]) {
+            [self.view addSubview:popupView];
+        }
+
         
     }
     /*レベル２*/
@@ -1224,6 +1240,15 @@
         NSLog(@"%@保存成功 保存用の数%d",[[[NSUserDefaults standardUserDefaults]
                                   dictionaryRepresentation]allKeys],clearcount[1]);
         [clearAudio play];
+        // 全画面広告を初期化
+        GFPopupView *popupView = [[GFPopupView alloc] init];
+        // 指定した数値を母数としてランダム表示します（例えば2を指定した場合は、1/2の確立で表示されます）
+        [popupView setSchedule:5];
+        // 全画面広告の表示
+        if ([popupView loadAd:@"8860"]) {
+            [self.view addSubview:popupView];
+        }
+
     }
     /*レベル３*/
     if (count[0] == 3 && count[1] == 3 && count[2] == 3 && count[3] == 3 && count[4] ==3) {
@@ -1243,6 +1268,15 @@
         NSLog(@"%@保存成功 保存世の数%d",[[[NSUserDefaults standardUserDefaults]
                                   dictionaryRepresentation]allKeys],clearcount[3]);
         [clearAudio play];
+        // 全画面広告を初期化
+        GFPopupView *popupView = [[GFPopupView alloc] init];
+        // 指定した数値を母数としてランダム表示します（例えば2を指定した場合は、1/2の確立で表示されます）
+        [popupView setSchedule:5];
+        // 全画面広告の表示
+        if ([popupView loadAd:@"8860"]) {
+            [self.view addSubview:popupView];
+        }
+
     }
     /*レベル４*/
     if (count[0] == 4 && count[1] == 4 && count[2] == 4 && count[3] == 4 && count[4] == 4 && count[5] == 4 ){
@@ -1260,6 +1294,15 @@
         NSLog(@"%@保存成功 保存用の数%d",[[[NSUserDefaults standardUserDefaults]
                                   dictionaryRepresentation]allKeys],clearcount[3]);
    [clearAudio play];
+        // 全画面広告を初期化
+        GFPopupView *popupView = [[GFPopupView alloc] init];
+        // 指定した数値を母数としてランダム表示します（例えば2を指定した場合は、1/2の確立で表示されます）
+        [popupView setSchedule:5];
+        // 全画面広告の表示
+        if ([popupView loadAd:@"8860"]) {
+            [self.view addSubview:popupView];
+        }
+
     }
     /*レベル５*/
     if (count[0] == 5 && count[1] == 5 && count[2] == 5 && count[3] == 5 && count[4] == 5 && count[5] == 5 && count[6]== 5) {
@@ -1276,6 +1319,15 @@
         NSLog(@"%@保存成功 保存用の数%d",[[[NSUserDefaults standardUserDefaults]
                                   dictionaryRepresentation]allKeys],clearcount[4]);
     [clearAudio play];
+        // 全画面広告を初期化
+        GFPopupView *popupView = [[GFPopupView alloc] init];
+        // 指定した数値を母数としてランダム表示します（例えば2を指定した場合は、1/2の確立で表示されます）
+        [popupView setSchedule:5];
+        // 全画面広告の表示
+        if ([popupView loadAd:@"8860"]) {
+            [self.view addSubview:popupView];
+        }
+
     }
     /*レベル６*/
     if (count[0] == 6 && count[1] == 6 && count[2] == 6 && count[3] == 6 && count[4] == 6 && count[5] == 6 && count[6]== 6 && count[7]== 6) {
@@ -1295,6 +1347,15 @@
         NSLog(@"%@保存成功 保存用の数%d",[[[NSUserDefaults standardUserDefaults]
                                   dictionaryRepresentation]allKeys],clearcount[5]);
     [clearAudio play];
+        // 全画面広告を初期化
+        GFPopupView *popupView = [[GFPopupView alloc] init];
+        // 指定した数値を母数としてランダム表示します（例えば2を指定した場合は、1/2の確立で表示されます）
+        [popupView setSchedule:5];
+        // 全画面広告の表示
+        if ([popupView loadAd:@"8860"]) {
+            [self.view addSubview:popupView];
+        }
+
     }
     /*レベル７*/
     if (count[0] == 7 && count[1] == 7 && count[2] == 7 && count[3] == 7 && count[4] == 7 && count[5] == 7 && count[6]== 7 && count[7]== 7 && count[8]== 7) {
@@ -1314,6 +1375,15 @@
         NSLog(@"%@保存成功 保存用の数%d",[[[NSUserDefaults standardUserDefaults]
                                   dictionaryRepresentation]allKeys],clearcount[6]);
     [clearAudio play];
+        // 全画面広告を初期化
+        GFPopupView *popupView = [[GFPopupView alloc] init];
+        // 指定した数値を母数としてランダム表示します（例えば2を指定した場合は、1/2の確立で表示されます）
+        [popupView setSchedule:5];
+        // 全画面広告の表示
+        if ([popupView loadAd:@"8860"]) {
+            [self.view addSubview:popupView];
+        }
+
     }
     /*レベル８*/
     if (count[0] == 8 && count[1] == 8 && count[2] == 8 && count[3] == 8 && count[4] == 8 && count[5] == 8 && count[6]== 8 && count[7]== 8 && count[8]== 8 && count[9]==8) {
@@ -1350,7 +1420,15 @@
         NSLog(@"%@保存成功 保存用の数%d",[[[NSUserDefaults standardUserDefaults]
                                   dictionaryRepresentation]allKeys],clearcount[8]);
   [clearAudio play];
-        
+        // 全画面広告を初期化
+        GFPopupView *popupView = [[GFPopupView alloc] init];
+        // 指定した数値を母数としてランダム表示します（例えば2を指定した場合は、1/2の確立で表示されます）
+        [popupView setSchedule:5];
+        // 全画面広告の表示
+        if ([popupView loadAd:@"8860"]) {
+            [self.view addSubview:popupView];
+        }
+
         
     }
     TimeLabel.text =[NSString stringWithFormat:@"%1d",Playtime];
@@ -1511,6 +1589,21 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+// 全画面広告が表示された際に実行される
+- (void)didShowGameFeatPopup{
+    NSLog(@"広告表示");
+}
+
+// 全画面広告が閉じられた際に実行される
+- (void)didCloseGameFeatPopup{
+    NSLog(@"広告閉じる");
+}
+
+// 全画面広告が表示できなかった際に実行される
+- (void)failGameFeatPopupData{
+    NSLog(@"広告非表示");
+}
 
 //#pragma mark - Navigation
 //

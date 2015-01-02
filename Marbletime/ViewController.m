@@ -339,17 +339,17 @@
 
 // 全画面広告が表示された際に実行される
 - (void)didShowGameFeatPopup{
-    NSLog(@"didShowGameFeatPopup");
+    NSLog(@"広告表示");
 }
 
 // 全画面広告が閉じられた際に実行される
 - (void)didCloseGameFeatPopup{
-    NSLog(@"didCloseGameFeatPopup");
+    NSLog(@"広告閉じる");
 }
 
 // 全画面広告が表示できなかった際に実行される
 - (void)failGameFeatPopupData{
-    NSLog(@"failGameFeatPopupData");
+    NSLog(@"広告非表示");
 }
 
 @end

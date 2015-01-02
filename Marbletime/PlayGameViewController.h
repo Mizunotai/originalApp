@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GameFeatKit/GFPopupView.h>
 #include <AVFoundation/AVFoundation.h>
+
 int clearcount[10];
 NSUserDefaults *countUD[10];
 
