@@ -28,6 +28,12 @@
 		B6A8782919E3D978009579A0 /* MarbletimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A8782819E3D978009579A0 /* MarbletimeTests.m */; };
 		B6A8783719E3DBE1009579A0 /* PlayGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A8783619E3DBE1009579A0 /* PlayGameViewController.m */; };
 		B6A8783919E3DCDF009579A0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A8783819E3DCDF009579A0 /* AVFoundation.framework */; };
+		B6AF9EFA1A738860008F4BCD /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AF9EF91A738860008F4BCD /* SpriteKit.framework */; };
+		B6AF9EFC1A73887D008F4BCD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AF9EFB1A73887D008F4BCD /* Social.framework */; };
+		B6AF9EFE1A7388AB008F4BCD /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AF9EFD1A7388AB008F4BCD /* CoreMotion.framework */; };
+		B6AF9F001A738905008F4BCD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AF9EFF1A738905008F4BCD /* AudioToolbox.framework */; };
+		B6AF9F021A738922008F4BCD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AF9F011A738922008F4BCD /* SystemConfiguration.framework */; };
+		B6AF9F041A73893A008F4BCD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AF9F031A73893A008F4BCD /* MessageUI.framework */; };
 		B6B9609A1A454F88007B98C5 /* GameFeatKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B960991A454F88007B98C5 /* GameFeatKit.framework */; };
 		B6B960A01A45507D007B98C5 /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = B6B9609C1A45507D007B98C5 /* CHANGELOG.md */; };
 		B6B960A11A45507D007B98C5 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B9609E1A45507D007B98C5 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -72,6 +78,9 @@
 		B6C7ABC21A56C0A2009CF339 /* gamefeat_popup_dl.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABB31A56C0A2009CF339 /* gamefeat_popup_dl.png */; };
 		B6C7ABC31A56C0A2009CF339 /* gamefeat_popup_dl_land.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABB41A56C0A2009CF339 /* gamefeat_popup_dl_land.png */; };
 		B6C7ABC41A56C0A2009CF339 /* gamefeat_style.css in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABB51A56C0A2009CF339 /* gamefeat_style.css */; };
+		B6C7ABC71A581214009CF339 /* Marbletime.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABC51A581214009CF339 /* Marbletime.xcscheme */; };
+		B6C7ABC81A581214009CF339 /* project.pbxproj in Resources */ = {isa = PBXBuildFile; fileRef = B6C7ABC61A581214009CF339 /* project.pbxproj */; };
+		D73405859EEF6ACF569E0B5A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFE942A3694687DBC11CCE6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +94,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5AFE942A3694687DBC11CCE6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E51E934EEBDD144FDF315D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B605BB381A2028FC002EC5E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B605BB401A202AC5002EC5E0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B605BB421A202AD3002EC5E0 /* Main4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main4.storyboard; sourceTree = "<group>"; };
@@ -113,6 +124,12 @@
 		B6A8783519E3DBE1009579A0 /* PlayGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayGameViewController.h; sourceTree = "<group>"; };
 		B6A8783619E3DBE1009579A0 /* PlayGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayGameViewController.m; sourceTree = "<group>"; };
 		B6A8783819E3DCDF009579A0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B6AF9EF91A738860008F4BCD /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		B6AF9EFB1A73887D008F4BCD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		B6AF9EFD1A7388AB008F4BCD /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		B6AF9EFF1A738905008F4BCD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B6AF9F011A738922008F4BCD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B6AF9F031A73893A008F4BCD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		B6B960991A454F88007B98C5 /* GameFeatKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GameFeatKit.framework; sourceTree = "<group>"; };
 		B6B9609C1A45507D007B98C5 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		B6B9609D1A45507D007B98C5 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
@@ -159,6 +176,9 @@
 		B6C7ABB31A56C0A2009CF339 /* gamefeat_popup_dl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_popup_dl.png; sourceTree = "<group>"; };
 		B6C7ABB41A56C0A2009CF339 /* gamefeat_popup_dl_land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_popup_dl_land.png; sourceTree = "<group>"; };
 		B6C7ABB51A56C0A2009CF339 /* gamefeat_style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = gamefeat_style.css; sourceTree = "<group>"; };
+		B6C7ABC51A581214009CF339 /* Marbletime.xcscheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Marbletime.xcscheme; path = Marbletime.xcodeproj/xcuserdata/taiki.xcuserdatad/xcschemes/Marbletime.xcscheme; sourceTree = "<group>"; };
+		B6C7ABC61A581214009CF339 /* project.pbxproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.pbxproject; name = project.pbxproj; path = Marbletime.xcodeproj/project.pbxproj; sourceTree = "<group>"; };
+		D0CB65706B58191156D9D7E2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,14 +186,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6AF9F041A73893A008F4BCD /* MessageUI.framework in Frameworks */,
+				B6AF9F021A738922008F4BCD /* SystemConfiguration.framework in Frameworks */,
+				B6AF9F001A738905008F4BCD /* AudioToolbox.framework in Frameworks */,
+				B6AF9EFE1A7388AB008F4BCD /* CoreMotion.framework in Frameworks */,
+				B6AF9EFC1A73887D008F4BCD /* Social.framework in Frameworks */,
 				B6B960AA1A455B08007B98C5 /* CoreTelephony.framework in Frameworks */,
-				B6B960A91A455AFA007B98C5 /* AdSupport.framework in Frameworks */,
+				B6AF9EFA1A738860008F4BCD /* SpriteKit.framework in Frameworks */,
 				B6B960A71A455AEB007B98C5 /* StoreKit.framework in Frameworks */,
+				B6B960A91A455AFA007B98C5 /* AdSupport.framework in Frameworks */,
 				B6A8783919E3DCDF009579A0 /* AVFoundation.framework in Frameworks */,
 				B6B9609A1A454F88007B98C5 /* GameFeatKit.framework in Frameworks */,
 				B6A8780019E3D978009579A0 /* CoreGraphics.framework in Frameworks */,
 				B6A8780219E3D978009579A0 /* UIKit.framework in Frameworks */,
 				B6A877FE19E3D978009579A0 /* Foundation.framework in Frameworks */,
+				D73405859EEF6ACF569E0B5A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +217,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B51113BB5541F1F465182D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0CB65706B58191156D9D7E2 /* Pods.debug.xcconfig */,
+				89E51E934EEBDD144FDF315D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B6A877F119E3D977009579A0 = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +234,9 @@
 				B6A8782219E3D978009579A0 /* MarbletimeTests */,
 				B6A877FC19E3D978009579A0 /* Frameworks */,
 				B6A877FB19E3D978009579A0 /* Products */,
+				B6C7ABC51A581214009CF339 /* Marbletime.xcscheme */,
+				B6C7ABC61A581214009CF339 /* project.pbxproj */,
+				6B51113BB5541F1F465182D7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -213,6 +252,12 @@
 		B6A877FC19E3D978009579A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B6AF9F031A73893A008F4BCD /* MessageUI.framework */,
+				B6AF9F011A738922008F4BCD /* SystemConfiguration.framework */,
+				B6AF9EFF1A738905008F4BCD /* AudioToolbox.framework */,
+				B6AF9EFD1A7388AB008F4BCD /* CoreMotion.framework */,
+				B6AF9EFB1A73887D008F4BCD /* Social.framework */,
+				B6AF9EF91A738860008F4BCD /* SpriteKit.framework */,
 				B6B960A81A455AFA007B98C5 /* AdSupport.framework */,
 				B6B960A51A455897007B98C5 /* CoreTelephony.framework */,
 				B6B960A31A455843007B98C5 /* StoreKit.framework */,
@@ -222,6 +267,7 @@
 				B6A877FF19E3D978009579A0 /* CoreGraphics.framework */,
 				B6A8780119E3D978009579A0 /* UIKit.framework */,
 				B6A8781C19E3D978009579A0 /* XCTest.framework */,
+				5AFE942A3694687DBC11CCE6 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -358,9 +404,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6A8782C19E3D978009579A0 /* Build configuration list for PBXNativeTarget "Marbletime" */;
 			buildPhases = (
+				A59A6252236AD7A09FA8C2CA /* Check Pods Manifest.lock */,
 				B6A877F619E3D978009579A0 /* Sources */,
 				B6A877F719E3D978009579A0 /* Frameworks */,
 				B6A877F819E3D978009579A0 /* Resources */,
+				098F26B97F51910E7830FDE0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -395,7 +443,7 @@
 		B6A877F219E3D978009579A0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "大氣";
 				TargetAttributes = {
 					B6A877F919E3D978009579A0 = {
@@ -449,6 +497,7 @@
 				B6BADD7A19ED04E9007447E8 /* Level1.png in Resources */,
 				B6BADD9919ED4117007447E8 /* risuta-to.png in Resources */,
 				B6BADD7819ED04E9007447E8 /* green_ball.png in Resources */,
+				B6C7ABC71A581214009CF339 /* Marbletime.xcscheme in Resources */,
 				B6BADD6219ED04A1007447E8 /* audio.mp3 in Resources */,
 				B6BADD7B19ED04E9007447E8 /* Level2.png in Resources */,
 				B6BADD9719ED4117007447E8 /* house.png in Resources */,
@@ -461,6 +510,7 @@
 				B6C7ABB81A56C0A2009CF339 /* gamefeat_btn_cancel.png in Resources */,
 				B605BB431A202AD3002EC5E0 /* Main4.storyboard in Resources */,
 				B6C7ABC11A56C0A2009CF339 /* gamefeat_popup_close_land.png in Resources */,
+				B6C7ABC81A581214009CF339 /* project.pbxproj in Resources */,
 				B6C7ABB71A56C0A2009CF339 /* gamefeat_btn_back.png in Resources */,
 				B6BADD7F19ED04E9007447E8 /* Level6.png in Resources */,
 				B6C7ABBA1A56C0A2009CF339 /* gamefeat_btn_review.png in Resources */,
@@ -487,6 +537,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		098F26B97F51910E7830FDE0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A59A6252236AD7A09FA8C2CA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B6A877F619E3D978009579A0 /* Sources */ = {
@@ -575,7 +658,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "9f964c91-9c8c-41fa-af10-c9be7c8f7d8b";
 				SDKROOT = iphoneos;
 			};
@@ -618,6 +701,7 @@
 		};
 		B6A8782D19E3D978009579A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0CB65706B58191156D9D7E2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iOS Distribution: Rika Mizuno";
@@ -639,6 +723,7 @@
 		};
 		B6A8782E19E3D978009579A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E51E934EEBDD144FDF315D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

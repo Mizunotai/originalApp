@@ -208,7 +208,7 @@
         [self.view addSubview:popupView];
     }
  
-    
+    [self loadMobInterstitial];
     
 }
 -(void)LavelOne:(UIButton *)button{
@@ -284,27 +284,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-//- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-//{
-//    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-//    if (self) {
-//        
-//        // GFIconControllerの初期化
-//        gfIconController = [[GFIconController alloc] init];
-//        
-//        // アイコンの自動更新間隔を指定（デフォルトで30秒／最短10秒）
-//        [gfIconController setRefreshTiming:30];
-//        
-//        // アイコンの配置位置を設定（1個〜20個まで設置出来ます）
-//        
-//        GFIconView *iconView = [[GFIconView alloc] initWithFrame:CGRectMake(18, 150, 60, 60)];
-//        [gfIconController addIconView:iconView];
-//        [self.view addSubview:iconView];
-//        
-//    }
-//    
-//    return self;
-//}
 
 - (void)viewDidAppear:(BOOL)animated
 {
@@ -350,6 +329,25 @@
 // 全画面広告が表示できなかった際に実行される
 - (void)failGameFeatPopupData{
     NSLog(@"広告非表示");
+}
+
+- (void)loadMobInterstitial
+{
+    interstitial_ = [[GADInterstitial alloc] init];
+    interstitial_.adUnitID = @"ca-app-pub-9716098489587760/6907649132";
+    interstitial_.delegate = self;
+    GADRequest *request = [GADRequest request];
+    [interstitial_ loadRequest:request];
+}
+
+- (void)interstitialDidReceiveAd:(GADInterstitial *)ad
+{
+    [interstitial_ presentFromRootViewController:self];
+}
+
+- (void)interstitial:(GADInterstitial *)ad didFailToReceiveAdWithError:(GADRequestError *)error{
+    
+    NSLog(@"interstitialDidFailToReceiveAdWithError: %@", [error localizedDescription]);
 }
 
 @end
