@@ -142,317 +142,708 @@
     
     
     
-    
-    
-    if (number == 1) {
-        
-        //1個目の座標
-        ball[0].center = CGPointMake(50, 40);
-        [self.view addSubview:ball[0]];
-        
-        //2個目の座標
-        ball[1].center = CGPointMake(299, 47);
-        [self.view addSubview:ball[1]];
-        
-        //3個目の座標
-        ball[2].center = CGPointMake(300, 300);
-        [self.view addSubview:ball[2]];
-        
-    }
-    
-    if(number ==2) {
-        
-        //1個目の座標
-        ball[0].center = CGPointMake(165, 88);
-        [self.view addSubview:ball[0]];
-        //２個目の座票
-        ball[1].center = CGPointMake(300, 333);
-        [self.view addSubview:ball[1]];
-        //3個目の座標
-        ball[2].center = CGPointMake(19, 222);
-        [self.view addSubview:ball[2]];
-        //4個目の座標
-        ball[3].center = CGPointMake(45, 14);
-        [self.view addSubview:ball[3]];
-        
-    }else if (number == 3){
-        
-        //1個目の座表
-        ball[0].center = CGPointMake(33, 188);
-        [self.view addSubview:ball[0]];
-        //２個目の座票
-        ball[1].center = CGPointMake(156, 150);
-        [self.view addSubview:ball[1]];
-        //3個目の座標
-        ball[2].center = CGPointMake(99, 278);
-        [self.view addSubview:ball[2]];
-        //4個目の座標
-        ball[3].center = CGPointMake(204, 33);
-        [self.view addSubview:ball[3]];
-        //５個目の座標
-        ball[4].center = CGPointMake(243,333);
-        [self.view addSubview:ball[4]];
-        
-    }else if (number == 4){
-        //1個目の座表
-        ball[0].center = CGPointMake(34, 188);
-        [self.view addSubview:ball[0]];
-        //２個目の座票
-        ball[1].center = CGPointMake(156, 57);
-        [self.view addSubview:ball[1]];
-        //3個目の座標
-        ball[2].center = CGPointMake(278, 278);
-        [self.view addSubview:ball[2]];
-        //4個目の座標
-        ball[3].center = CGPointMake(204, 300);
-        [self.view addSubview:ball[3]];
-        //５個目の座標
-        ball[4].center = CGPointMake(39,39);
-        [self.view addSubview:ball[4]];
-        //６個目の座標
-        ball[5].center=CGPointMake(100,100);
-        [self.view addSubview:ball[5]];
-        
-    }else if (number == 5){
-        //1個目の座表
-        ball[0].center = CGPointMake(17,17);
-        [self.view addSubview:ball[0]];
-        //２個目の座票
-        ball[1].center = CGPointMake(300, 400);
-        [self.view addSubview:ball[1]];
-        //        //3個目の座標
-        ball[2].center = CGPointMake(100, 278);
-        [self.view addSubview:ball[2]];
-        //        //4個目の座標
-        ball[3].center = CGPointMake(300,17);
-        [self.view addSubview:ball[3]];
-        //        //５個目の座標
-        ball[4].center = CGPointMake(200,100);
-        [self.view addSubview:ball[4]];
-        //        //６個目の座標
-        ball[5].center=CGPointMake(50,200);
-        [self.view addSubview:ball[5]];
-        
-        //7個目の座標
-        ball[6].center = CGPointMake(250, 250);
-        [self.view addSubview:ball[6]];
-        
-    }else if (number == 6){
-        //1個目の座表
-        ball[0].center = CGPointMake(17,240);
-        [self.view addSubview:ball[0]];
-        //        //２個目の座票
-        ball[1].center = CGPointMake(120, 240);
-        [self.view addSubview:ball[1]];
-        //        //        //3個目の座標
-        ball[2].center = CGPointMake(220, 240);
-        [self.view addSubview:ball[2]];
-        //        //        //4個目の座標
-        ball[3].center = CGPointMake(310,240);
-        [self.view addSubview:ball[3]];
-        //        //        //５個目の座標
-        ball[4].center = CGPointMake(200,100);
-        [self.view addSubview:ball[4]];
-        //        //        //６個目の座標
-        ball[5].center=CGPointMake(50,350);
-        [self.view addSubview:ball[5]];
-        //
-        //7個目の座標
-        ball[6].center = CGPointMake(250, 350);
-        [self.view addSubview:ball[6]];
-        
-        //８個目の座標
-        ball[7].center = CGPointMake(60, 100);
-        [self.view addSubview:ball[7]];
-        
-    }else if (number == 7){
-        //1個目の座表
-        ball[0].center = CGPointMake(17,200);
-        [self.view addSubview:ball[0]];
-        //        //        //２個目の座票
-        ball[1].center = CGPointMake(17, 100);
-        [self.view addSubview:ball[1]];
-        //        //        //        //3個目の座標
-        ball[2].center = CGPointMake(100, 100);
-        [self.view addSubview:ball[2]];
-        //        //        //        //4個目の座標
-        ball[3].center = CGPointMake(183,100);
-        [self.view addSubview:ball[3]];
-        //        //        //        //５個目の座標
-        ball[4].center = CGPointMake(266,100);
-        [self.view addSubview:ball[4]];
-        //        //        //        //６個目の座標
-        ball[5].center=CGPointMake(266,200);
-        [self.view addSubview:ball[5]];
-        //        //
-        //        //7個目の座標
-        ball[6].center = CGPointMake(266, 300);
-        [self.view addSubview:ball[6]];
-        //
-        //        //８個目の座標
-        ball[7].center = CGPointMake(266, 400);
-        [self.view addSubview:ball[7]];
-        
-        //9個目の座標
-        ball[8].center = CGPointMake(17, 150);
-        [self.view addSubview:ball[8]];
-        
-    }else if (number == 8){
-        //1個目の座表
-        ball[0].center = CGPointMake(17,200);
-        [self.view addSubview:ball[0]];
-        //２個目の座票
-        ball[1].center = CGPointMake(17, 100);
-        [self.view addSubview:ball[1]];
-        //        //3個目の座標
-        ball[2].center = CGPointMake(17, 300);
-        [self.view addSubview:ball[2]];
-        //4個目の座標
-        ball[3].center = CGPointMake(17,400);
-        [self.view addSubview:ball[3]];
-        //５個目の座標
-        ball[4].center = CGPointMake(117,100);
-        [self.view addSubview:ball[4]];
-        //６個目の座標
-        ball[5].center=CGPointMake(217,100);
-        [self.view addSubview:ball[5]];
-        //        //7個目の座標
-        ball[6].center = CGPointMake(300, 100);
-        [self.view addSubview:ball[6]];
-        //８個目の座標
-        ball[7].center = CGPointMake(300,200);
-        [self.view addSubview:ball[7]];
-        
-        //9個目の座標
-        ball[8].center = CGPointMake(300, 300);
-        [self.view addSubview:ball[8]];
-        
-        //10個目の座標
-        ball[9].center = CGPointMake(300, 400);
-        [self.view addSubview:ball[9]];
-        
-    }else if (number == 9){
-        //1個目の座表
-        ball[0].center = CGPointMake(17,70);
-        [self.view addSubview:ball[0]];
-        //２個目の座票
-        ball[1].center = CGPointMake(300, 70);
-        [self.view addSubview:ball[1]];
-        //3個目の座標
-        ball[2].center = CGPointMake(161, 70);
-        [self.view addSubview:ball[2]];
-        //4個目の座標
-        ball[3].center = CGPointMake(17,300);
-        [self.view addSubview:ball[3]];
-        //５個目の座標
-        ball[4].center = CGPointMake(161,300);
-        [self.view addSubview:ball[4]];
-        //６個目の座標
-        ball[5].center=CGPointMake(300,300);
-        [self.view addSubview:ball[5]];
-        //7個目の座標
-        ball[6].center = CGPointMake(17, 200);
-        [self.view addSubview:ball[6]];
-        //８個目の座標
-        ball[7].center = CGPointMake(17,400);
-        [self.view addSubview:ball[7]];
-        
-        //9個目の座標
-        ball[8].center = CGPointMake(300, 200);
-        [self.view addSubview:ball[8]];
-        
-        //10個目の座標
-        ball[9].center = CGPointMake(300, 400);
-        [self.view addSubview:ball[9]];
-        
-    }else if (number ==10){
-       
-        
-        special = arc4random_uniform(15) ;
-        NSLog(@"ランダムな数字は%d",special);
-        
-        if (special == 0) {
+    switch (number) {
+        case 1:
+            //1個目の座標
+            ball[0].center = CGPointMake(50, 40);
+            [self.view addSubview:ball[0]];
+            
+            //2個目の座標
+            ball[1].center = CGPointMake(299, 47);
+            [self.view addSubview:ball[1]];
+            
+            //3個目の座標
+            ball[2].center = CGPointMake(300, 300);
+            [self.view addSubview:ball[2]];
+            
+            break;
+        case 2:
+            //1個目の座標
+            ball[0].center = CGPointMake(165, 88);
+            [self.view addSubview:ball[0]];
+            //２個目の座票
+            ball[1].center = CGPointMake(300, 333);
+            [self.view addSubview:ball[1]];
+            //3個目の座標
+            ball[2].center = CGPointMake(19, 222);
+            [self.view addSubview:ball[2]];
+            //4個目の座標
+            ball[3].center = CGPointMake(45, 14);
+            [self.view addSubview:ball[3]];
+            
+
+            break;
+            case 3:
+            //1個目の座表
+            ball[0].center = CGPointMake(33, 188);
+            [self.view addSubview:ball[0]];
+            //２個目の座票
+            ball[1].center = CGPointMake(156, 150);
+            [self.view addSubview:ball[1]];
+            //3個目の座標
+            ball[2].center = CGPointMake(99, 278);
+            [self.view addSubview:ball[2]];
+            //4個目の座標
+            ball[3].center = CGPointMake(204, 33);
+            [self.view addSubview:ball[3]];
+            //５個目の座標
+            ball[4].center = CGPointMake(243,333);
+            [self.view addSubview:ball[4]];
+            break;
+            case 4:
+            //1個目の座表
+            ball[0].center = CGPointMake(34, 188);
+            [self.view addSubview:ball[0]];
+            //２個目の座票
+            ball[1].center = CGPointMake(156, 57);
+            [self.view addSubview:ball[1]];
+            //3個目の座標
+            ball[2].center = CGPointMake(278, 278);
+            [self.view addSubview:ball[2]];
+            //4個目の座標
+            ball[3].center = CGPointMake(204, 300);
+            [self.view addSubview:ball[3]];
+            //５個目の座標
+            ball[4].center = CGPointMake(39,39);
+            [self.view addSubview:ball[4]];
+            //６個目の座標
+            ball[5].center=CGPointMake(100,100);
+            [self.view addSubview:ball[5]];
+            break;
+            case 5:
+            //1個目の座表
+            ball[0].center = CGPointMake(17,17);
+            [self.view addSubview:ball[0]];
+            //２個目の座票
+            ball[1].center = CGPointMake(300, 400);
+            [self.view addSubview:ball[1]];
+            //        //3個目の座標
+            ball[2].center = CGPointMake(100, 278);
+            [self.view addSubview:ball[2]];
+            //        //4個目の座標
+            ball[3].center = CGPointMake(300,17);
+            [self.view addSubview:ball[3]];
+            //        //５個目の座標
+            ball[4].center = CGPointMake(200,100);
+            [self.view addSubview:ball[4]];
+            //        //６個目の座標
+            ball[5].center=CGPointMake(50,200);
+            [self.view addSubview:ball[5]];
+            
+            //7個目の座標
+            ball[6].center = CGPointMake(250, 250);
+            [self.view addSubview:ball[6]];
+            break;
+            case 6:
+            //1個目の座表
+            ball[0].center = CGPointMake(17,240);
+            [self.view addSubview:ball[0]];
+            //        //２個目の座票
+            ball[1].center = CGPointMake(120, 240);
+            [self.view addSubview:ball[1]];
+            //        //        //3個目の座標
+            ball[2].center = CGPointMake(220, 240);
+            [self.view addSubview:ball[2]];
+            //        //        //4個目の座標
+            ball[3].center = CGPointMake(310,240);
+            [self.view addSubview:ball[3]];
+            //        //        //５個目の座標
+            ball[4].center = CGPointMake(200,100);
+            [self.view addSubview:ball[4]];
+            //        //        //６個目の座標
+            ball[5].center=CGPointMake(50,350);
+            [self.view addSubview:ball[5]];
+            //
+            //7個目の座標
+            ball[6].center = CGPointMake(250, 350);
+            [self.view addSubview:ball[6]];
+            
+            //８個目の座標
+            ball[7].center = CGPointMake(60, 100);
+            [self.view addSubview:ball[7]];
+            break;
+            case 7:
+            //1個目の座表
+            ball[0].center = CGPointMake(17,200);
+            [self.view addSubview:ball[0]];
+            //        //        //２個目の座票
             ball[1].center = CGPointMake(17, 100);
             [self.view addSubview:ball[1]];
-        }
-        if (special == 1) {
-            ball[1].center = CGPointMake(117,100);
-            [self.view addSubview:ball[1]];
+            //        //        //        //3個目の座標
+            ball[2].center = CGPointMake(100, 100);
+            [self.view addSubview:ball[2]];
+            //        //        //        //4個目の座標
+            ball[3].center = CGPointMake(183,100);
+            [self.view addSubview:ball[3]];
+            //        //        //        //５個目の座標
+            ball[4].center = CGPointMake(266,100);
+            [self.view addSubview:ball[4]];
+            //        //        //        //６個目の座標
+            ball[5].center=CGPointMake(266,200);
+            [self.view addSubview:ball[5]];
+            //        //
+            //        //7個目の座標
+            ball[6].center = CGPointMake(266, 300);
+            [self.view addSubview:ball[6]];
+            //
+            //        //８個目の座標
+            ball[7].center = CGPointMake(266, 400);
+            [self.view addSubview:ball[7]];
             
-        }
-        if (special ==2) {
-            ball[1].center = CGPointMake(217,100);
+            //9個目の座標
+            ball[8].center = CGPointMake(17, 150);
+            [self.view addSubview:ball[8]];
+
+            break;
+            case 8:
+            //1個目の座表
+            ball[0].center = CGPointMake(17,200);
+            [self.view addSubview:ball[0]];
+            //２個目の座票
+            ball[1].center = CGPointMake(17, 100);
             [self.view addSubview:ball[1]];
+            //        //3個目の座標
+            ball[2].center = CGPointMake(17, 300);
+            [self.view addSubview:ball[2]];
+            //4個目の座標
+            ball[3].center = CGPointMake(17,400);
+            [self.view addSubview:ball[3]];
+            //５個目の座標
+            ball[4].center = CGPointMake(117,100);
+            [self.view addSubview:ball[4]];
+            //６個目の座標
+            ball[5].center=CGPointMake(217,100);
+            [self.view addSubview:ball[5]];
+            //        //7個目の座標
+            ball[6].center = CGPointMake(300, 100);
+            [self.view addSubview:ball[6]];
+            //８個目の座標
+            ball[7].center = CGPointMake(300,200);
+            [self.view addSubview:ball[7]];
             
-        }
-        if (special == 3) {
-            ball[1].center = CGPointMake(300,100);
+            //9個目の座標
+            ball[8].center = CGPointMake(300, 300);
+            [self.view addSubview:ball[8]];
+            
+            //10個目の座標
+            ball[9].center = CGPointMake(300, 400);
+            [self.view addSubview:ball[9]];
+            break;
+            case 9:
+            //1個目の座表
+            ball[0].center = CGPointMake(17,70);
+            [self.view addSubview:ball[0]];
+            //２個目の座票
+            ball[1].center = CGPointMake(300, 70);
             [self.view addSubview:ball[1]];
+            //3個目の座標
+            ball[2].center = CGPointMake(161, 70);
+            [self.view addSubview:ball[2]];
+            //4個目の座標
+            ball[3].center = CGPointMake(17,300);
+            [self.view addSubview:ball[3]];
+            //５個目の座標
+            ball[4].center = CGPointMake(161,300);
+            [self.view addSubview:ball[4]];
+            //６個目の座標
+            ball[5].center=CGPointMake(300,300);
+            [self.view addSubview:ball[5]];
+            //7個目の座標
+            ball[6].center = CGPointMake(17, 200);
+            [self.view addSubview:ball[6]];
+            //８個目の座標
+            ball[7].center = CGPointMake(17,400);
+            [self.view addSubview:ball[7]];
             
-        }
-        if (special == 4) {
-            ball[1].center = CGPointMake(17,200);
-            [self.view addSubview:ball[1]];
+            //9個目の座標
+            ball[8].center = CGPointMake(300, 200);
+            [self.view addSubview:ball[8]];
             
-        }
-        if (special == 5) {
-            ball[1].center = CGPointMake(117,200);
-            [self.view addSubview:ball[1]];
+            //10個目の座標
+            ball[9].center = CGPointMake(300, 400);
+            [self.view addSubview:ball[9]];
+            break;
+            case 10:
+            special = arc4random_uniform(15) ;
+            switch (special) {
+                case 0:
+                    ball[1].center = CGPointMake(17, 100);
+                    [self.view addSubview:ball[1]];
+
+                    break;
+                    case 1:
+                    ball[1].center = CGPointMake(117,100);
+                    [self.view addSubview:ball[1]];
+                    break;
+                    case 2:
+                    ball[1].center = CGPointMake(217,100);
+                    [self.view addSubview:ball[1]];
+                    break;
+                    case 3:
+                    ball[1].center = CGPointMake(300,100);
+                    [self.view addSubview:ball[1]];
+                    break;
+                    case 4:
+                    ball[1].center = CGPointMake(17,200);
+                    [self.view addSubview:ball[1]];
+                    break;
+                    case 5:
+                    ball[1].center = CGPointMake(117,200);
+                    [self.view addSubview:ball[1]];
+                    break;
+                    case 6:
+                    ball[1].center = CGPointMake(217,200);
+                    [self.view addSubview:ball[1]];
+                    break;
+                    case 7:
+                    ball[1].center = CGPointMake(300,200);
+                    [self.view addSubview:ball[1]];
+                    break;
+                    case 8:
+                    ball[1].center = CGPointMake(17,300);
+                    [self.view addSubview:ball[1]];
+
+                    break;
+                    case 9:
+                    ball[1].center = CGPointMake(117,300);
+                    [self.view addSubview:ball[1]];
+                    break;
+                    case 10:
+                    ball[1].center = CGPointMake(217,300);
+                    [self.view addSubview:ball[1]];
+
+                    break;
+                    case 11:
+                    ball[1].center = CGPointMake(300,300);
+                    [self.view addSubview:ball[1]];
+
+                    break;
+                case 12:{
+                    ball[1].center = CGPointMake(17,400);
+                    [self.view addSubview:ball[1]];
+                }
+                    case 13:
+                    ball[1].center = CGPointMake(117,400);
+                    [self.view addSubview:ball[1]];
+                    break;
+                    case 14:
+                    ball[1].center = CGPointMake(217,400);
+                    [self.view addSubview:ball[1]];
+                    break;
+                    case 15:
+                    if (special == 15) {
+                        ball[1].center = CGPointMake(300,400);
+                        [self.view addSubview:ball[1]];
+                        
+                    break;
+                default:
+                    break;
+            }
             
-        }
-        if (special == 6) {
-            ball[1].center = CGPointMake(217,200);
-            [self.view addSubview:ball[1]];
+            NSLog(@"ランダムな数字は%d",special);
             
-        }
-        if (special == 7) {
-            ball[1].center = CGPointMake(300,200);
-            [self.view addSubview:ball[1]];
+//            if (special == 0) {
+//                ball[1].center = CGPointMake(17, 100);
+//                [self.view addSubview:ball[1]];
+//            }
+//            if (special == 1) {
+//                ball[1].center = CGPointMake(117,100);
+//                [self.view addSubview:ball[1]];
+//                
+//            }
+//            if (special ==2) {
+//                ball[1].center = CGPointMake(217,100);
+//                [self.view addSubview:ball[1]];
+//                
+//            }
+//            if (special == 3) {
+//                ball[1].center = CGPointMake(300,100);
+//                [self.view addSubview:ball[1]];
+//                
+//            }
+//            if (special == 4) {
+//                ball[1].center = CGPointMake(17,200);
+//                [self.view addSubview:ball[1]];
+//                
+//            }
+//            if (special == 5) {
+//                ball[1].center = CGPointMake(117,200);
+//                [self.view addSubview:ball[1]];
+//                
+//            }
+//            if (special == 6) {
+//                ball[1].center = CGPointMake(217,200);
+//                [self.view addSubview:ball[1]];
+//                
+//            }
+//            if (special == 7) {
+//                ball[1].center = CGPointMake(300,200);
+//                [self.view addSubview:ball[1]];
+//                
+//            }
+//            if (special == 8) {
+//                ball[1].center = CGPointMake(17,300);
+//                [self.view addSubview:ball[1]];
+//                
+//            }
+//            if (special == 9) {
+//                ball[1].center = CGPointMake(117,300);
+//                [self.view addSubview:ball[1]];
+//                
+//            }
             
-        }
-        if (special == 8) {
-            ball[1].center = CGPointMake(17,300);
-            [self.view addSubview:ball[1]];
-            
-        }
-        if (special == 9) {
-            ball[1].center = CGPointMake(117,300);
-            [self.view addSubview:ball[1]];
-            
-        }
-        
-        if (special==10) {
-            ball[1].center = CGPointMake(217,300);
-            [self.view addSubview:ball[1]];
-            
-        }
-        if (special == 11) {
-            ball[1].center = CGPointMake(300,300);
-            [self.view addSubview:ball[1]];
-            
-        }
-        if (special == 12) {
-            ball[1].center = CGPointMake(17,400);
-            [self.view addSubview:ball[1]];
-            
-        }
-        if (special == 13) {
-            ball[1].center = CGPointMake(117,400);
-            [self.view addSubview:ball[1]];
-            
-        }
-        if (special == 14) {
-            ball[1].center = CGPointMake(217,400);
-            [self.view addSubview:ball[1]];
-            
-        }
-        if (special == 15) {
-            ball[1].center = CGPointMake(300,400);
-            [self.view addSubview:ball[1]];
-            
-        }
-        specilCount =0;
+//            if (special==10) {
+//                ball[1].center = CGPointMake(217,300);
+//                [self.view addSubview:ball[1]];
+//                
+//            }
+//            if (special == 11) {
+//                ball[1].center = CGPointMake(300,300);
+//                [self.view addSubview:ball[1]];
+//                
+//            }
+//            if (special == 12) {
+//                ball[1].center = CGPointMake(17,400);
+//                [self.view addSubview:ball[1]];
+//                
+//            }
+//            if (special == 13) {
+//                ball[1].center = CGPointMake(117,400);
+//                [self.view addSubview:ball[1]];
+//                
+//            }
+//            if (special == 14) {
+//                ball[1].center = CGPointMake(217,400);
+//                [self.view addSubview:ball[1]];
+//                
+//            }
+//            if (special == 15) {
+//                ball[1].center = CGPointMake(300,400);
+//                [self.view addSubview:ball[1]];
+//                
+//            }
+            specilCount =0;
+
+            break;
     }
+    
+//    if (number == 1) {
+//        
+//        //1個目の座標
+//        ball[0].center = CGPointMake(50, 40);
+//        [self.view addSubview:ball[0]];
+//        
+//        //2個目の座標
+//        ball[1].center = CGPointMake(299, 47);
+//        [self.view addSubview:ball[1]];
+//        
+//        //3個目の座標
+//        ball[2].center = CGPointMake(300, 300);
+//        [self.view addSubview:ball[2]];
+//        
+//    }
+    
+//    if(number ==2) {
+//        
+//        //1個目の座標
+//        ball[0].center = CGPointMake(165, 88);
+//        [self.view addSubview:ball[0]];
+//        //２個目の座票
+//        ball[1].center = CGPointMake(300, 333);
+//        [self.view addSubview:ball[1]];
+//        //3個目の座標
+//        ball[2].center = CGPointMake(19, 222);
+//        [self.view addSubview:ball[2]];
+//        //4個目の座標
+//        ball[3].center = CGPointMake(45, 14);
+//        [self.view addSubview:ball[3]];
+//        
+//    }
+// if (number == 3){
+//        
+//        //1個目の座表
+//        ball[0].center = CGPointMake(33, 188);
+//        [self.view addSubview:ball[0]];
+//        //２個目の座票
+//        ball[1].center = CGPointMake(156, 150);
+//        [self.view addSubview:ball[1]];
+//        //3個目の座標
+//        ball[2].center = CGPointMake(99, 278);
+//        [self.view addSubview:ball[2]];
+//        //4個目の座標
+//        ball[3].center = CGPointMake(204, 33);
+//        [self.view addSubview:ball[3]];
+//        //５個目の座標
+//        ball[4].center = CGPointMake(243,333);
+//        [self.view addSubview:ball[4]];
+//        
+    //}
+//     if (number == 4){
+//        //1個目の座表
+//        ball[0].center = CGPointMake(34, 188);
+//        [self.view addSubview:ball[0]];
+//        //２個目の座票
+//        ball[1].center = CGPointMake(156, 57);
+//        [self.view addSubview:ball[1]];
+//        //3個目の座標
+//        ball[2].center = CGPointMake(278, 278);
+//        [self.view addSubview:ball[2]];
+//        //4個目の座標
+//        ball[3].center = CGPointMake(204, 300);
+//        [self.view addSubview:ball[3]];
+//        //５個目の座標
+//        ball[4].center = CGPointMake(39,39);
+//        [self.view addSubview:ball[4]];
+//        //６個目の座標
+//        ball[5].center=CGPointMake(100,100);
+//        [self.view addSubview:ball[5]];
+    
+    //}else
+//    if (number == 5){
+//        //1個目の座表
+//        ball[0].center = CGPointMake(17,17);
+//        [self.view addSubview:ball[0]];
+//        //２個目の座票
+//        ball[1].center = CGPointMake(300, 400);
+//        [self.view addSubview:ball[1]];
+//        //        //3個目の座標
+//        ball[2].center = CGPointMake(100, 278);
+//        [self.view addSubview:ball[2]];
+//        //        //4個目の座標
+//        ball[3].center = CGPointMake(300,17);
+//        [self.view addSubview:ball[3]];
+//        //        //５個目の座標
+//        ball[4].center = CGPointMake(200,100);
+//        [self.view addSubview:ball[4]];
+//        //        //６個目の座標
+//        ball[5].center=CGPointMake(50,200);
+//        [self.view addSubview:ball[5]];
+//        
+//        //7個目の座標
+//        ball[6].center = CGPointMake(250, 250);
+//        [self.view addSubview:ball[6]];
+//        
+    //}else
+//    if (number == 6){
+//        //1個目の座表
+//        ball[0].center = CGPointMake(17,240);
+//        [self.view addSubview:ball[0]];
+//        //        //２個目の座票
+//        ball[1].center = CGPointMake(120, 240);
+//        [self.view addSubview:ball[1]];
+//        //        //        //3個目の座標
+//        ball[2].center = CGPointMake(220, 240);
+//        [self.view addSubview:ball[2]];
+//        //        //        //4個目の座標
+//        ball[3].center = CGPointMake(310,240);
+//        [self.view addSubview:ball[3]];
+//        //        //        //５個目の座標
+//        ball[4].center = CGPointMake(200,100);
+//        [self.view addSubview:ball[4]];
+//        //        //        //６個目の座標
+//        ball[5].center=CGPointMake(50,350);
+//        [self.view addSubview:ball[5]];
+//        //
+//        //7個目の座標
+//        ball[6].center = CGPointMake(250, 350);
+//        [self.view addSubview:ball[6]];
+//        
+//        //８個目の座標
+//        ball[7].center = CGPointMake(60, 100);
+//        [self.view addSubview:ball[7]];
+    
+//    }else
+//if (number == 7){
+//        //1個目の座表
+//        ball[0].center = CGPointMake(17,200);
+//        [self.view addSubview:ball[0]];
+//        //        //        //２個目の座票
+//        ball[1].center = CGPointMake(17, 100);
+//        [self.view addSubview:ball[1]];
+//        //        //        //        //3個目の座標
+//        ball[2].center = CGPointMake(100, 100);
+//        [self.view addSubview:ball[2]];
+//        //        //        //        //4個目の座標
+//        ball[3].center = CGPointMake(183,100);
+//        [self.view addSubview:ball[3]];
+//        //        //        //        //５個目の座標
+//        ball[4].center = CGPointMake(266,100);
+//        [self.view addSubview:ball[4]];
+//        //        //        //        //６個目の座標
+//        ball[5].center=CGPointMake(266,200);
+//        [self.view addSubview:ball[5]];
+//        //        //
+//        //        //7個目の座標
+//        ball[6].center = CGPointMake(266, 300);
+//        [self.view addSubview:ball[6]];
+//        //
+//        //        //８個目の座標
+//        ball[7].center = CGPointMake(266, 400);
+//        [self.view addSubview:ball[7]];
+//        
+//        //9個目の座標
+//        ball[8].center = CGPointMake(17, 150);
+//        [self.view addSubview:ball[8]];
+//    
+//    }else
+//    if (number == 8){
+//        //1個目の座表
+//        ball[0].center = CGPointMake(17,200);
+//        [self.view addSubview:ball[0]];
+//        //２個目の座票
+//        ball[1].center = CGPointMake(17, 100);
+//        [self.view addSubview:ball[1]];
+//        //        //3個目の座標
+//        ball[2].center = CGPointMake(17, 300);
+//        [self.view addSubview:ball[2]];
+//        //4個目の座標
+//        ball[3].center = CGPointMake(17,400);
+//        [self.view addSubview:ball[3]];
+//        //５個目の座標
+//        ball[4].center = CGPointMake(117,100);
+//        [self.view addSubview:ball[4]];
+//        //６個目の座標
+//        ball[5].center=CGPointMake(217,100);
+//        [self.view addSubview:ball[5]];
+//        //        //7個目の座標
+//        ball[6].center = CGPointMake(300, 100);
+//        [self.view addSubview:ball[6]];
+//        //８個目の座標
+//        ball[7].center = CGPointMake(300,200);
+//        [self.view addSubview:ball[7]];
+//        
+//        //9個目の座標
+//        ball[8].center = CGPointMake(300, 300);
+//        [self.view addSubview:ball[8]];
+//        
+//        //10個目の座標
+//        ball[9].center = CGPointMake(300, 400);
+//        [self.view addSubview:ball[9]];
+//        
+//    }else
+//    if (number == 9){
+//        //1個目の座表
+//        ball[0].center = CGPointMake(17,70);
+//        [self.view addSubview:ball[0]];
+//        //２個目の座票
+//        ball[1].center = CGPointMake(300, 70);
+//        [self.view addSubview:ball[1]];
+//        //3個目の座標
+//        ball[2].center = CGPointMake(161, 70);
+//        [self.view addSubview:ball[2]];
+//        //4個目の座標
+//        ball[3].center = CGPointMake(17,300);
+//        [self.view addSubview:ball[3]];
+//        //５個目の座標
+//        ball[4].center = CGPointMake(161,300);
+//        [self.view addSubview:ball[4]];
+//        //６個目の座標
+//        ball[5].center=CGPointMake(300,300);
+//        [self.view addSubview:ball[5]];
+//        //7個目の座標
+//        ball[6].center = CGPointMake(17, 200);
+//        [self.view addSubview:ball[6]];
+//        //８個目の座標
+//        ball[7].center = CGPointMake(17,400);
+//        [self.view addSubview:ball[7]];
+//        
+//        //9個目の座標
+//        ball[8].center = CGPointMake(300, 200);
+//        [self.view addSubview:ball[8]];
+//        
+//        //10個目の座標
+//        ball[9].center = CGPointMake(300, 400);
+//        [self.view addSubview:ball[9]];
+//        
+//    }else
+//        if (number ==10){
+//       
+//        
+//        special = arc4random_uniform(15) ;
+//        NSLog(@"ランダムな数字は%d",special);
+//        
+//        if (special == 0) {
+//            ball[1].center = CGPointMake(17, 100);
+//            [self.view addSubview:ball[1]];
+//        }
+//        if (special == 1) {
+//            ball[1].center = CGPointMake(117,100);
+//            [self.view addSubview:ball[1]];
+//            
+//        }
+//        if (special ==2) {
+//            ball[1].center = CGPointMake(217,100);
+//            [self.view addSubview:ball[1]];
+//            
+//        }
+//        if (special == 3) {
+//            ball[1].center = CGPointMake(300,100);
+//            [self.view addSubview:ball[1]];
+//            
+//        }
+//        if (special == 4) {
+//            ball[1].center = CGPointMake(17,200);
+//            [self.view addSubview:ball[1]];
+//            
+//        }
+//        if (special == 5) {
+//            ball[1].center = CGPointMake(117,200);
+//            [self.view addSubview:ball[1]];
+//            
+//        }
+//        if (special == 6) {
+//            ball[1].center = CGPointMake(217,200);
+//            [self.view addSubview:ball[1]];
+//            
+//        }
+//        if (special == 7) {
+//            ball[1].center = CGPointMake(300,200);
+//            [self.view addSubview:ball[1]];
+//            
+//        }
+//        if (special == 8) {
+//            ball[1].center = CGPointMake(17,300);
+//            [self.view addSubview:ball[1]];
+//            
+//        }
+//        if (special == 9) {
+//            ball[1].center = CGPointMake(117,300);
+//            [self.view addSubview:ball[1]];
+//            
+//        }
+//        
+//        if (special==10) {
+//            ball[1].center = CGPointMake(217,300);
+//            [self.view addSubview:ball[1]];
+//            
+//        }
+//        if (special == 11) {
+//            ball[1].center = CGPointMake(300,300);
+//            [self.view addSubview:ball[1]];
+//            
+//        }
+//        if (special == 12) {
+//            ball[1].center = CGPointMake(17,400);
+//            [self.view addSubview:ball[1]];
+//            
+//        }
+//        if (special == 13) {
+//            ball[1].center = CGPointMake(117,400);
+//            [self.view addSubview:ball[1]];
+//            
+//        }
+//        if (special == 14) {
+//            ball[1].center = CGPointMake(217,400);
+//            [self.view addSubview:ball[1]];
+//            
+//        }
+//        if (special == 15) {
+//            ball[1].center = CGPointMake(300,400);
+//            [self.view addSubview:ball[1]];
+//            
+//        }
+        specilCount =0;
+  }
     
     
     
