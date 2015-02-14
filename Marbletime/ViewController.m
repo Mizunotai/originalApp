@@ -111,7 +111,6 @@
    //NSLog(@"%@保存成功 ",[[[NSUserDefaults standardUserDefaults]dictionaryRepresentation]allKeys]);
     
     
-    
     if (clearcount[0] == 2  ){
         
         
@@ -152,8 +151,6 @@
         [self.view addSubview:LevelBtn[9]];
             }
     if (clearcount[8] ==10 ) {
-        
-       
         
         [self.view addSubview:scroll];
         [scroll addSubview:LevelBtn[1]];
@@ -205,10 +202,10 @@
     [popupView setSchedule:5];
     // 全画面広告の表示
     if ([popupView loadAd:@"8860"]) {
-        [self.view addSubview:popupView];
+//        [self.view addSubview:popupView];
     }
  
-    [self loadMobInterstitial];
+    //[self loadMobInterstitial];
     
 }
 -(void)LavelOne:(UIButton *)button{
@@ -258,6 +255,7 @@
     [self presentViewController: view animated:YES completion: nil];
     
 }
+
 -(void)lavelaight:(UIButton*)button{
     number = 8;
     UIViewController *view = [self.storyboard instantiateViewControllerWithIdentifier:@"Play"];
@@ -338,6 +336,7 @@
     interstitial_.delegate = self;
     GADRequest *request = [GADRequest request];
     [interstitial_ loadRequest:request];
+    
 }
 
 - (void)interstitialDidReceiveAd:(GADInterstitial *)ad
